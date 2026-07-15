@@ -1,0 +1,35 @@
+name: Release
+
+# Cut a release by pushing a version tag:
+#   git tag v1.0.0 && git push origin v1.0.0
+# This builds a tarball of the static content and attaches it (plus its
+# .sha256) to a GitHub Release named after the tag.
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Build versioned tarball
+        run: scripts/make-tarball.sh "${GITHUB_REF_NAME}"
+
+      - name: Create GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "${GITHUB_REF_NAME}" \
+            "dist/zfin-static-${GITHUB_REF_NAME}.tar.gz" \
+            "dist/zfin-static-${GITHUB_REF_NAME}.tar.gz.sha256" \
+            --title "${GITHUB_REF_NAME}" \
+            --generate-notes

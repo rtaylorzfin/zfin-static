@@ -11,3 +11,6 @@
 *.log
 /tmp/
 .rsync-partial/
+
+# Build output (release tarballs are produced here, not committed)
+/dist/
