@@ -1,0 +1,117 @@
+---
+title: "ZFIN zf_info — Full Table of Contents"
+---
+<style>
+    .fulltoc { max-width: 60rem; }
+    .fulltoc h1 { margin-bottom: .25rem; }
+    .fulltoc .intro { color: #555; margin: 0 0 1rem; }
+    .fulltoc details { margin: .2rem 0; }
+    .fulltoc #toc-root > details > summary {
+        font-size: 1.1rem; font-weight: 600; cursor: pointer; padding: .35rem 0;
+    }
+    .fulltoc .toc-section { margin: .3rem 0 .7rem 1.1rem; }
+    .fulltoc .toc-section-title { font-weight: 600; color: #333; margin: .5rem 0 .2rem; }
+    .fulltoc ul { list-style: none; margin: 0 0 0 1.1rem; padding: 0; }
+    .fulltoc li { margin: .12rem 0; }
+    .fulltoc a { text-decoration: none; }
+    .fulltoc a:hover { text-decoration: underline; }
+    .fulltoc .count { color: #888; font-weight: 400; font-size: .85em; }
+    .fulltoc .err { color: #a00; }
+    .fulltoc .toolbar { margin: .5rem 0 1rem; }
+    .fulltoc .toolbar button { margin-right: .5rem; }
+</style>
+
+<div class="fulltoc">
+    <h1>The Zebrafish Information Network &mdash; zf_info contents</h1>
+    <p class="intro">
+        A generated index of the archival <code>zf_info</code> reference pages,
+        built at page load from the per-collection TOC JSON under
+        <code>/zf_info/toc/</code>.
+    </p>
+    <div class="toolbar">
+        <button type="button" id="toc-expand">Expand all</button>
+        <button type="button" id="toc-collapse">Collapse all</button>
+    </div>
+    <div id="toc-root">Loading&hellip;</div>
+</div>
+
+<script>
+(function () {
+    // Per-collection TOC JSON (siblings of this page under /zf_info/toc/).
+    var COLLECTIONS = [
+        { file: 'zfbook.json',  label: 'The Zebrafish Book' },
+        { file: 'staging.json', label: 'Developmental Staging Series' },
+        { file: 'monitor.json', label: 'The ZFIN Monitor' },
+        { file: 'anatomy.json', label: 'Developmental Anatomy Atlas' },
+        { file: 'loose.json',   label: 'Other collections' },
+        { file: 'misc.json',    label: 'Miscellaneous pages' }
+    ];
+
+    var root = document.getElementById('toc-root');
+
+    // Titles come from the pages' <title> text and may carry HTML entities
+    // (e.g. "&gt;"); decode them for display.
+    var decoder = document.createElement('textarea');
+    function decode(s) { decoder.innerHTML = s || ''; return decoder.value; }
+
+    function renderCollection(label, data) {
+        var details = document.createElement('details');
+        var summary = document.createElement('summary');
+        var count = (data.spine && data.spine.length) || 0;
+        summary.appendChild(document.createTextNode(label + ' '));
+        var badge = document.createElement('span');
+        badge.className = 'count';
+        badge.textContent = '(' + count + ')';
+        summary.appendChild(badge);
+        details.appendChild(summary);
+
+        (data.sections || []).forEach(function (sec) {
+            var box = document.createElement('div');
+            box.className = 'toc-section';
+            if (sec.title) {
+                var h = document.createElement('div');
+                h.className = 'toc-section-title';
+                h.textContent = decode(sec.title);
+                box.appendChild(h);
+            }
+            var ul = document.createElement('ul');
+            (sec.pages || []).forEach(function (p) {
+                var li = document.createElement('li');
+                var a = document.createElement('a');
+                a.href = p.href;
+                a.textContent = decode(p.title) || p.href;
+                li.appendChild(a);
+                ul.appendChild(li);
+            });
+            box.appendChild(ul);
+            details.appendChild(box);
+        });
+        return details;
+    }
+
+    Promise.all(COLLECTIONS.map(function (c) {
+        return fetch(c.file)
+            .then(function (r) { return r.ok ? r.json() : null; })
+            .then(function (j) { return { c: c, data: j }; })
+            .catch(function () { return { c: c, data: null }; });
+    })).then(function (results) {
+        root.innerHTML = '';
+        results.forEach(function (res) {
+            if (!res.data) {
+                var e = document.createElement('div');
+                e.className = 'err';
+                e.textContent = res.c.label + ': could not load ' + res.c.file;
+                root.appendChild(e);
+                return;
+            }
+            root.appendChild(renderCollection(res.c.label, res.data));
+        });
+    });
+
+    function setAll(open) {
+        [].forEach.call(root.querySelectorAll('details'), function (d) { d.open = open; });
+    }
+    document.getElementById('toc-expand').addEventListener('click', function () { setAll(true); });
+    document.getElementById('toc-collapse').addEventListener('click', function () { setAll(false); });
+})();
+</script>
