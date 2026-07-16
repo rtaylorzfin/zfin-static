@@ -19,7 +19,7 @@ Reads src/zf_info/<page>; writes toc/<collection>.json.
 import json, os, re, sys, posixpath
 
 ROOT = os.path.join(os.path.dirname(__file__), "..", "src", "zf_info")
-OUT  = os.path.join(os.path.dirname(__file__), "..", "toc")
+OUT  = os.path.join(os.path.dirname(__file__), "..", "src", "zf_info", "toc")
 
 COLLECTIONS = [
     dict(name="zfbook",  root="zfbook",        seed="zfbook/cont.html",          follow=None),

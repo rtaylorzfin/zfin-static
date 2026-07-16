@@ -26,6 +26,7 @@ src/
   _includes/layout.njk        the one shell (head, chrome mounts, <main>) — edit once
   zf_info/                    reference-page fragments (+ their inline images)
     zf_info.11tydata.js       applies the layout; keeps output path == source path
+    toc/*.json                generated navigation spines (served at /zf_info/toc/)
   images/                     shared site images
   ZFIN/                       legacy pages (different shell — copied verbatim, not templated)
   robots.txt
@@ -34,8 +35,7 @@ src/
 eleventy.config.js            renders only zf_info/*.html; ignores ZFIN/
 scripts/copy-assets.mjs       copies all non-templated files into build/
 scripts/package.mjs           tars build/ + writes .sha256
-scripts/build-toc.py          extracts nav spines from collection contents pages
-toc/                          generated navigation spines + toc/README.md
+toctools/build-toc.py         regenerates src/zf_info/toc/*.json (scratch home; to be removed)
 ```
 
 A page fragment looks like:
@@ -65,12 +65,14 @@ and rebuild.
 
 ## Navigation TOCs
 
-`scripts/build-toc.py` extracts an ordered navigation **spine** (+ heading-grouped
+`toctools/build-toc.py` extracts an ordered navigation **spine** (+ heading-grouped
 sections) from each collection's contents page — step 1 toward back / forward /
-next-section / back-to-toc links. Output is `toc/*.json`; see
-[`toc/README.md`](toc/README.md) for the schema, per-collection coverage
-(zfbook, staging, monitor, anatomy), and the loose collections that have no
-ordered index.
+next-section / back-to-toc links. Output lives in `src/zf_info/toc/*.json` so it
+ships in the tarball and Apache serves it at **`/zf_info/toc/*.json`** (the
+client-side nav can fetch it). See [`toctools/README.md`](toctools/README.md) for
+the schema, per-collection coverage (zfbook, staging, monitor, anatomy), and the
+loose collections that have no ordered index. (`toctools/` is a scratch home for
+the parser for now and will be removed later.)
 
 ## Provenance
 
