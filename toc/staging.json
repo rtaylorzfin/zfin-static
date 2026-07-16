@@ -1,0 +1,584 @@
+{
+  "collection": "staging",
+  "seed": "/zf_info/zfbook/stages/stages.html",
+  "spine": [
+    {
+      "href": "/zf_info/zfbook/stages/abst.html",
+      "title": "Abstract",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/intro.html",
+      "title": "Introduction",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/org.html",
+      "title": "Organization",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/proc.html",
+      "title": "Procedures",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/temp.html",
+      "title": "Temperature and Standard Developmental Time",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/zygote.html",
+      "title": "Zygote Period (0-3/4 h)",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/cleave.html",
+      "title": "Description",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/cleave_stgs.html",
+      "title": "Stages",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/blast.html",
+      "title": "Description",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/blast_stgs.html",
+      "title": "Stages",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/gast.html",
+      "title": "Description",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/gast_stgs.html",
+      "title": "Stages",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/seg.html",
+      "title": "Description",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/seg_stgs.html",
+      "title": "Stages",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/phar.html",
+      "title": "Description",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/phar_stgs.html",
+      "title": "Stages",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/hatch.html",
+      "title": "Description",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/hatch_stgs.html",
+      "title": "Stages",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/gloss.html",
+      "title": "Glossary",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/refs.html",
+      "title": "References",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/figs/fig1.html",
+      "title": "Fig. 1",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/figs/fig2.html",
+      "title": "Fig. 2",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/figs/fig3.html",
+      "title": "Fig. 3",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/figs/fig4.html",
+      "title": "Fig. 4",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/figs/fig5.html",
+      "title": "Fig. 5",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/figs/fig6.html",
+      "title": "Fig. 6",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/figs/fig7.html",
+      "title": "Fig. 7",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/figs/fig8.html",
+      "title": "Fig. 8",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/figs/fig9.html",
+      "title": "Fig. 9",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/figs/fig10.html",
+      "title": "Fig. 10",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/figs/fig11.html",
+      "title": "Fig. 11",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/figs/fig12.html",
+      "title": "Fig. 12",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/figs/fig13.html",
+      "title": "Fig. 13",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/figs/fig14.html",
+      "title": "Fig. 14",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/figs/fig15.html",
+      "title": "Fig. 15",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/figs/fig16.html",
+      "title": "Fig. 16",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/figs/fig17.html",
+      "title": "Fig. 17",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/figs/fig18.html",
+      "title": "Fig. 18",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/figs/fig19.html",
+      "title": "Fig. 19",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/figs/fig20.html",
+      "title": "Fig. 20",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/figs/fig21.html",
+      "title": "Fig. 21",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/figs/fig22.html",
+      "title": "Fig. 22",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/figs/fig23.html",
+      "title": "Fig. 23",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/figs/fig24.html",
+      "title": "Fig. 24",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/figs/fig25.html",
+      "title": "Fig. 25",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/figs/fig26.html",
+      "title": "Fig. 26",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/figs/fig27.html",
+      "title": "Fig. 27",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/figs/fig28.html",
+      "title": "Fig. 28",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/figs/fig29.html",
+      "title": "Fig. 29",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/figs/fig30.html",
+      "title": "Fig. 30",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/figs/fig31.html",
+      "title": "Fig. 31",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/figs/fig32.html",
+      "title": "Fig. 32",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/figs/fig33.html",
+      "title": "Fig. 33",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/figs/fig34.html",
+      "title": "Fig. 34",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/figs/fig35.html",
+      "title": "Fig. 35",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/figs/fig36.html",
+      "title": "Fig. 36",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/figs/fig37.html",
+      "title": "Fig. 37",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/figs/fig38.html",
+      "title": "Fig. 38",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/figs/fig39.html",
+      "title": "Fig. 39",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/figs/fig40.html",
+      "title": "Fig. 40",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/figs/fig41.html",
+      "title": "Fig. 41",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/figs/fig42.html",
+      "title": "Fig. 42",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/figs/fig43.html",
+      "title": "Fig. 43",
+      "section": "Stages of Embryonic Development of the Zebrafish"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Stages of Embryonic Development of the Zebrafish",
+      "pages": [
+        {
+          "href": "/zf_info/zfbook/stages/abst.html",
+          "title": "Abstract"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/intro.html",
+          "title": "Introduction"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/org.html",
+          "title": "Organization"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/proc.html",
+          "title": "Procedures"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/temp.html",
+          "title": "Temperature and Standard Developmental Time"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/zygote.html",
+          "title": "Zygote Period (0-3/4 h)"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/cleave.html",
+          "title": "Description"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/cleave_stgs.html",
+          "title": "Stages"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/blast.html",
+          "title": "Description"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/blast_stgs.html",
+          "title": "Stages"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/gast.html",
+          "title": "Description"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/gast_stgs.html",
+          "title": "Stages"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/seg.html",
+          "title": "Description"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/seg_stgs.html",
+          "title": "Stages"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/phar.html",
+          "title": "Description"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/phar_stgs.html",
+          "title": "Stages"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/hatch.html",
+          "title": "Description"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/hatch_stgs.html",
+          "title": "Stages"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/gloss.html",
+          "title": "Glossary"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/refs.html",
+          "title": "References"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/figs/fig1.html",
+          "title": "Fig. 1"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/figs/fig2.html",
+          "title": "Fig. 2"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/figs/fig3.html",
+          "title": "Fig. 3"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/figs/fig4.html",
+          "title": "Fig. 4"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/figs/fig5.html",
+          "title": "Fig. 5"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/figs/fig6.html",
+          "title": "Fig. 6"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/figs/fig7.html",
+          "title": "Fig. 7"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/figs/fig8.html",
+          "title": "Fig. 8"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/figs/fig9.html",
+          "title": "Fig. 9"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/figs/fig10.html",
+          "title": "Fig. 10"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/figs/fig11.html",
+          "title": "Fig. 11"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/figs/fig12.html",
+          "title": "Fig. 12"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/figs/fig13.html",
+          "title": "Fig. 13"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/figs/fig14.html",
+          "title": "Fig. 14"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/figs/fig15.html",
+          "title": "Fig. 15"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/figs/fig16.html",
+          "title": "Fig. 16"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/figs/fig17.html",
+          "title": "Fig. 17"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/figs/fig18.html",
+          "title": "Fig. 18"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/figs/fig19.html",
+          "title": "Fig. 19"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/figs/fig20.html",
+          "title": "Fig. 20"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/figs/fig21.html",
+          "title": "Fig. 21"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/figs/fig22.html",
+          "title": "Fig. 22"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/figs/fig23.html",
+          "title": "Fig. 23"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/figs/fig24.html",
+          "title": "Fig. 24"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/figs/fig25.html",
+          "title": "Fig. 25"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/figs/fig26.html",
+          "title": "Fig. 26"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/figs/fig27.html",
+          "title": "Fig. 27"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/figs/fig28.html",
+          "title": "Fig. 28"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/figs/fig29.html",
+          "title": "Fig. 29"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/figs/fig30.html",
+          "title": "Fig. 30"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/figs/fig31.html",
+          "title": "Fig. 31"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/figs/fig32.html",
+          "title": "Fig. 32"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/figs/fig33.html",
+          "title": "Fig. 33"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/figs/fig34.html",
+          "title": "Fig. 34"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/figs/fig35.html",
+          "title": "Fig. 35"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/figs/fig36.html",
+          "title": "Fig. 36"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/figs/fig37.html",
+          "title": "Fig. 37"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/figs/fig38.html",
+          "title": "Fig. 38"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/figs/fig39.html",
+          "title": "Fig. 39"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/figs/fig40.html",
+          "title": "Fig. 40"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/figs/fig41.html",
+          "title": "Fig. 41"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/figs/fig42.html",
+          "title": "Fig. 42"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/figs/fig43.html",
+          "title": "Fig. 43"
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "spine_pages": 63,
+    "collection_html_pages": 69
+  }
+}

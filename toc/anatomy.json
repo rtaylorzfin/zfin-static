@@ -1,0 +1,728 @@
+{
+  "collection": "anatomy",
+  "seed": "/zf_info/anatomy.html",
+  "spine": [
+    {
+      "href": "/zf_info/anatomy/24hrs/S001.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/24hrs/S002.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/24hrs/S003.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/24hrs/S004.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/24hrs/S012.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/24hrs/S007.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/24hrs/S013.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/24hrs/S014.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/24hrs/S015.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/24hrs/S016.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/24hrs/S011.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/24hrs/S010.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/24hrs/S009.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/24hrs/S008.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/24hrs/S006.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/24hrs/S005.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/dev_atlas.html",
+      "title": "Back to Atlas of Zebrafish Anatomy",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/48hrs/S017.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/48hrs/S018.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/48hrs/S020.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/48hrs/S019.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/48hrs/S021.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/48hrs/S038.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/48hrs/S037.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/48hrs/S036.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/48hrs/S035.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/48hrs/S034.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/48hrs/S033.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/48hrs/S032.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/48hrs/S031.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/48hrs/S030.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/48hrs/S029.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/48hrs/S028.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/48hrs/S027.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/48hrs/S026.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/48hrs/S025.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/48hrs/S024.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/48hrs/S023.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/48hrs/S022.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/72hrs/S043.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/72hrs/S042.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/72hrs/S041.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/72hrs/S040.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/72hrs/S039.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/72hrs/S050.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/72hrs/S044.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/72hrs/S045.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/72hrs/S046.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/72hrs/S047.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/72hrs/S048.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/72hrs/S049.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/72hrs/S051.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/72hrs/S052.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/72hrs/S053.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/72hrs/S054.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/72hrs/S055.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/72hrs/S056.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/72hrs/S057.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/120hrs/S058.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/120hrs/S059.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/120hrs/S059_5.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/120hrs/S060.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/120hrs/S061.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/120hrs/S062.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/120hrs/S063.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/120hrs/S064.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/120hrs/S065.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/120hrs/S066.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/120hrs/S067.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/120hrs/S068.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/120hrs/S070.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/120hrs/S069.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/120hrs/S071.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/120hrs/S072.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/120hrs/S073.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/120hrs/S074.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/120hrs/S075.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/120hrs/S076.html",
+      "title": "",
+      "section": "Select development stage:"
+    },
+    {
+      "href": "/zf_info/anatomy/120hrs/S077.html",
+      "title": "",
+      "section": "Select development stage:"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Select development stage:",
+      "pages": [
+        {
+          "href": "/zf_info/anatomy/24hrs/S001.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/24hrs/S002.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/24hrs/S003.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/24hrs/S004.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/24hrs/S012.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/24hrs/S007.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/24hrs/S013.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/24hrs/S014.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/24hrs/S015.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/24hrs/S016.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/24hrs/S011.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/24hrs/S010.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/24hrs/S009.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/24hrs/S008.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/24hrs/S006.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/24hrs/S005.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/dev_atlas.html",
+          "title": "Back to Atlas of Zebrafish Anatomy"
+        },
+        {
+          "href": "/zf_info/anatomy/48hrs/S017.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/48hrs/S018.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/48hrs/S020.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/48hrs/S019.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/48hrs/S021.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/48hrs/S038.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/48hrs/S037.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/48hrs/S036.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/48hrs/S035.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/48hrs/S034.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/48hrs/S033.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/48hrs/S032.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/48hrs/S031.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/48hrs/S030.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/48hrs/S029.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/48hrs/S028.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/48hrs/S027.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/48hrs/S026.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/48hrs/S025.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/48hrs/S024.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/48hrs/S023.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/48hrs/S022.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/72hrs/S043.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/72hrs/S042.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/72hrs/S041.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/72hrs/S040.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/72hrs/S039.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/72hrs/S050.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/72hrs/S044.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/72hrs/S045.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/72hrs/S046.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/72hrs/S047.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/72hrs/S048.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/72hrs/S049.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/72hrs/S051.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/72hrs/S052.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/72hrs/S053.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/72hrs/S054.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/72hrs/S055.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/72hrs/S056.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/72hrs/S057.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/120hrs/S058.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/120hrs/S059.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/120hrs/S059_5.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/120hrs/S060.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/120hrs/S061.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/120hrs/S062.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/120hrs/S063.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/120hrs/S064.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/120hrs/S065.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/120hrs/S066.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/120hrs/S067.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/120hrs/S068.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/120hrs/S070.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/120hrs/S069.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/120hrs/S071.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/120hrs/S072.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/120hrs/S073.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/120hrs/S074.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/120hrs/S075.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/120hrs/S076.html",
+          "title": ""
+        },
+        {
+          "href": "/zf_info/anatomy/120hrs/S077.html",
+          "title": ""
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "spine_pages": 79,
+    "collection_html_pages": 99
+  }
+}

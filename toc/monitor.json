@@ -1,0 +1,889 @@
+{
+  "collection": "monitor",
+  "seed": "/zf_info/monitor/mon.html",
+  "spine": [
+    {
+      "href": "/zf_info/monitor/vol7.1/vol7.1.html",
+      "title": "Volume 7, Issue 1, August 14, 2000",
+      "section": "Issues:"
+    },
+    {
+      "href": "/zf_info/monitor/vol6.1/vol6.1.html",
+      "title": "Volume 6, Issue 1, December 1, 1999",
+      "section": "Issues:"
+    },
+    {
+      "href": "/zf_info/monitor/vol5.1/vol5.1.html",
+      "title": "Volume 5, Issue 1, June 15, 1998",
+      "section": "Issues:"
+    },
+    {
+      "href": "/zf_info/monitor/vol4.1/1.html",
+      "title": "EXPRESSION DOMAINS OF A ZEBRAFISH HOMOLOGUE OF THE DROSOPHILA PAIR-RULE GENE HAIRY CORRESPOND TO PRIMORDIA OF ALTERNATING SOMITES",
+      "section": "Volume 4, Issue 1, June 10, 1996"
+    },
+    {
+      "href": "/zf_info/monitor/vol4.1/2.html",
+      "title": "A SOLUTION FOR DELAYED IN VITRO FERTILIZATION OF ZEBRAFISH EGGS",
+      "section": "Volume 4, Issue 1, June 10, 1996"
+    },
+    {
+      "href": "/zf_info/monitor/vol4.1/3.html",
+      "title": "A PLEA FOR CONVENTIONS",
+      "section": "Volume 4, Issue 1, June 10, 1996"
+    },
+    {
+      "href": "/zf_info/monitor/vol4.1/4.html",
+      "title": "ZEBRAFISH NOMENCLATURE",
+      "section": "Volume 4, Issue 1, June 10, 1996"
+    },
+    {
+      "href": "/zf_info/monitor/vol4.1/5.html",
+      "title": "PREPARATION OF DNA-NLS COMPLEXES FOR MICROINJECTION INTO FERTILIZED ZEBRAFISH EGGS",
+      "section": "Volume 4, Issue 1, June 10, 1996"
+    },
+    {
+      "href": "/zf_info/monitor/vol4.1/6.html",
+      "title": "TEMPERATURE-SENSITIVE MUTATIONS THAT CAUSE STAGE-SPECIFIC DEFECTS IN ZEBRAFISH FIN REGENERATION",
+      "section": "Volume 4, Issue 1, June 10, 1996"
+    },
+    {
+      "href": "/zf_info/monitor/vol4.1/7.html",
+      "title": "ZEBRAFISH STOCK CENTER PLANNED",
+      "section": "Volume 4, Issue 1, June 10, 1996"
+    },
+    {
+      "href": "/zf_info/monitor/vol4.1/8.html",
+      "title": "POSTER VIEWING AS A CONTACT SPORT",
+      "section": "Volume 4, Issue 1, June 10, 1996"
+    },
+    {
+      "href": "/zf_info/monitor/vol4.1/9.html",
+      "title": "JANE MARION OPPENHEIMER, 1911-1996",
+      "section": "Volume 4, Issue 1, June 10, 1996"
+    },
+    {
+      "href": "/zf_info/monitor/vol4.1/10.html",
+      "title": "EARLY DEVELOPMENT OF FUNDULUS HETEROCLITUS, Selected References",
+      "section": "Volume 4, Issue 1, June 10, 1996"
+    },
+    {
+      "href": "/zf_info/monitor/vol3.6/4.html",
+      "title": "REGULATIVE INTERACTIONS IN ZEBRAFISH NEURAL CREST",
+      "section": "Volume 3, Issue 6, December 18, 1995"
+    },
+    {
+      "href": "/zf_info/monitor/vol3.6/3.html",
+      "title": "MINIREVIEW: REPEATED SEQUENCE ELEMENTS IN ZEBRAFISH AND THEIR USE IN MOLECULAR GENETIC STUDIES",
+      "section": "Volume 3, Issue 6, December 18, 1995"
+    },
+    {
+      "href": "/zf_info/monitor/vol3.6/7.html",
+      "title": "WHOLE-MOUNT IN SITU HYBRIDIZATION OF THICK TISSUE SECTIONS",
+      "section": "Volume 3, Issue 6, December 18, 1995"
+    },
+    {
+      "href": "/zf_info/monitor/vol3.6/6.html",
+      "title": "CONSTRUCTION OF ZEBRAFISH SPAWNING CAGES",
+      "section": "Volume 3, Issue 6, December 18, 1995"
+    },
+    {
+      "href": "/zf_info/monitor/vol3.6/1.html",
+      "title": "HOW YOU CAN HELP BUILD THE ZEBRAFISH DATABASE",
+      "section": "Volume 3, Issue 6, December 18, 1995"
+    },
+    {
+      "href": "/zf_info/monitor/vol3.6/2.html",
+      "title": "AN ECONOMICAL ZEBRAFISH GENETICS FACILITY",
+      "section": "Volume 3, Issue 6, December 18, 1995"
+    },
+    {
+      "href": "/zf_info/monitor/vol3.6/8.html",
+      "title": "1996 ZEBRAFISH DEVELOPMENT & GENETICS MEETING",
+      "section": "Volume 3, Issue 6, December 18, 1995"
+    },
+    {
+      "href": "/zf_info/monitor/vol3.6/5.html",
+      "title": "15TH ANNUAL SINGER SYMPOSIUM \"Models of Regeneration: Lower Versus Higher Vertebrates\"",
+      "section": "Volume 3, Issue 6, December 18, 1995"
+    },
+    {
+      "href": "/zf_info/monitor/vol3.5/1.html",
+      "title": "HALF- TETRAD ANALYSIS IN ZEBRAFISH: MAPPING THE ROS MUTATION AND THE CENTROMERE OF LINKAGE GROUP I",
+      "section": "Volume 3, Issue 5, July 24, 1995"
+    },
+    {
+      "href": "/zf_info/monitor/vol3.5/2.html",
+      "title": "GENE EXPRESSION IN TELEOST FINS AND THE ORIGIN OF VERTEBRATE DIGITS",
+      "section": "Volume 3, Issue 5, July 24, 1995"
+    },
+    {
+      "href": "/zf_info/monitor/vol3.5/3.html",
+      "title": "ELECTRONIC ZEBRAFISH",
+      "section": "Volume 3, Issue 5, July 24, 1995"
+    },
+    {
+      "href": "/zf_info/monitor/vol3.5/4.html",
+      "title": "KEEPING AND RAISING ZEBRA FISH (DANIO RERIO) IN T&#220;BINGEN",
+      "section": "Volume 3, Issue 5, July 24, 1995"
+    },
+    {
+      "href": "/zf_info/monitor/vol3.5/5.html",
+      "title": "AS AN ALTERNATIVE BABY FOOD TO PARAMECIA",
+      "section": "Volume 3, Issue 5, July 24, 1995"
+    },
+    {
+      "href": "/zf_info/monitor/vol3.5/6.html",
+      "title": "A CONSERVED FAMILY OF ELAV-LIKE GENES IN VERTEBRATES",
+      "section": "Volume 3, Issue 5, July 24, 1995"
+    },
+    {
+      "href": "/zf_info/monitor/vol3.5/7.html",
+      "title": "PRODUCTION OF ANDROGENETIC HAPLOIDS AND DIPLOIDS",
+      "section": "Volume 3, Issue 5, July 24, 1995"
+    },
+    {
+      "href": "/zf_info/monitor/vol3.5/8.html",
+      "title": "DELAYED IN VITRO FERTILIZATION OF ZEBRAFISH EGGS USING COHO SALMON (ONCHORHYNCHUS KISUTCH) OVARIAN FLUID",
+      "section": "Volume 3, Issue 5, July 24, 1995"
+    },
+    {
+      "href": "/zf_info/monitor/vol3.5/9.html",
+      "title": "CHROMOSOME COMPLEMENT, C-, AG- NOR AND REPLICATION BANDING IN THE ZEBRAFISH Danio rerio",
+      "section": "Volume 3, Issue 5, July 24, 1995"
+    },
+    {
+      "href": "/zf_info/monitor/vol3.5/10.html",
+      "title": "ZEBRAFISH WEB SERVER (SOUTH CAROLINA) CHANGES",
+      "section": "Volume 3, Issue 5, July 24, 1995"
+    },
+    {
+      "href": "/zf_info/monitor/vol3.5/11.html",
+      "title": "FISHSCOPE",
+      "section": "Volume 3, Issue 5, July 24, 1995"
+    },
+    {
+      "href": "/zf_info/monitor/vol3.5/12.html",
+      "title": "POSTDOC POSITION",
+      "section": "Volume 3, Issue 5, July 24, 1995"
+    },
+    {
+      "href": "/zf_info/monitor/vol3.5/13.html",
+      "title": "POSITION TO RUN ZEBRAFISH AND XENOPUS FACILITIES",
+      "section": "Volume 3, Issue 5, July 24, 1995"
+    },
+    {
+      "href": "/zf_info/monitor/vol3.5/14.html",
+      "title": "ZEBRAFISH DEVELOPMENT IN SPACE",
+      "section": "Volume 3, Issue 5, July 24, 1995"
+    },
+    {
+      "href": "/zf_info/monitor/vol3.5/15.html",
+      "title": "ZEBRAFISH YAC LIBRARY?",
+      "section": "Volume 3, Issue 5, July 24, 1995"
+    },
+    {
+      "href": "/zf_info/monitor/vol3.4/1.html",
+      "title": "INTESTINAL CAPILLARIASIS IN ZEBRAFISH",
+      "section": "Volume 3, Issue 4, February 27, 1995"
+    },
+    {
+      "href": "/zf_info/monitor/vol3.4/2.html",
+      "title": "ECTODERMAL PATTERNING AND NEUROGENESIS IN THE ZEBRAFISH",
+      "section": "Volume 3, Issue 4, February 27, 1995"
+    },
+    {
+      "href": "/zf_info/monitor/vol3.4/3.html",
+      "title": "HOLES IN THE FISH NET?",
+      "section": "Volume 3, Issue 4, February 27, 1995"
+    },
+    {
+      "href": "/zf_info/monitor/vol3.4/4.html",
+      "title": "HIGH SCHOOL INSTRUCTION RESOURCE LIST",
+      "section": "Volume 3, Issue 4, February 27, 1995"
+    },
+    {
+      "href": "/zf_info/monitor/vol3.4/5.html",
+      "title": "ZEBRAFISH BOOKS TEMPORARILY OUT OF PRINT BUT, UPDATE PACKETS ARE STILL AVAILABLE",
+      "section": "Volume 3, Issue 4, February 27, 1995"
+    },
+    {
+      "href": "/zf_info/monitor/vol3.4/6.html",
+      "title": "DIFFERENTIAL INDUCTION OF FOUR MSX HOMEOBOX GENES DURING FIN DEVELOPMENT AND REGENERATION IN ZEBRAFISH",
+      "section": "Volume 3, Issue 4, February 27, 1995"
+    },
+    {
+      "href": "/zf_info/monitor/vol3.4/7.html",
+      "title": "TETRAHYMENA: AN EASY ALTERNATIVE FOR PARAMECIA",
+      "section": "Volume 3, Issue 4, February 27, 1995"
+    },
+    {
+      "href": "/zf_info/monitor/vol3.4/8.html",
+      "title": "STAGES OF EMBRYONIC DEVELOPMENT OF THE ZEBRAFISH",
+      "section": "Volume 3, Issue 4, February 27, 1995"
+    },
+    {
+      "href": "/zf_info/monitor/vol3.4/9.html",
+      "title": "LECTURESHIP IN DEVELOPMENTAL BIOLOGY",
+      "section": "Volume 3, Issue 4, February 27, 1995"
+    },
+    {
+      "href": "/zf_info/monitor/vol3.4/10.html",
+      "title": "POSTDOCTORAL POSITIONS",
+      "section": "Volume 3, Issue 4, February 27, 1995"
+    },
+    {
+      "href": "/zf_info/monitor/vol3.4/11.html",
+      "title": "PROFESSIONAL AQUARIST NEEDED TO HELP RUN A 1,000 TANK, 1,500 GALLON ZEBRAFISH FACILITY AT UCSF",
+      "section": "Volume 3, Issue 4, February 27, 1995"
+    },
+    {
+      "href": "/zf_info/monitor/vol3.4/12.html",
+      "title": "POSITION AVAILABLE--NEUROBIOLOGY SWISS FEDERAL INSTITUTE OF TECHNOLOGY, ZURICH",
+      "section": "Volume 3, Issue 4, February 27, 1995"
+    },
+    {
+      "href": "/zf_info/monitor/vol3.3/1.html",
+      "title": "NEUROANATOMY OF THE ZEBRAFISH BRAIN",
+      "section": "Volume 3, Issue 3, October 3, 1994"
+    },
+    {
+      "href": "/zf_info/monitor/vol3.3/2.html",
+      "title": "BIONET NEWS GROUP ESTABLISHED",
+      "section": "Volume 3, Issue 3, October 3, 1994"
+    },
+    {
+      "href": "/zf_info/monitor/vol3.3/3.html",
+      "title": "FISH 'R US",
+      "section": "Volume 3, Issue 3, October 3, 1994"
+    },
+    {
+      "href": "/zf_info/monitor/vol3.3/4.html",
+      "title": "DIFFERENTIATION WAVES",
+      "section": "Volume 3, Issue 3, October 3, 1994"
+    },
+    {
+      "href": "/zf_info/monitor/vol3.3/5.html",
+      "title": "A SIMPLE AND RELIABLE PROTOCOL FOR RAISING FRESHWATER ROTIFIERS AS BABY FOOD",
+      "section": "Volume 3, Issue 3, October 3, 1994"
+    },
+    {
+      "href": "/zf_info/monitor/vol3.3/6.html",
+      "title": "PARAMECIA PROTOCOL",
+      "section": "Volume 3, Issue 3, October 3, 1994"
+    },
+    {
+      "href": "/zf_info/monitor/vol3.3/7.html",
+      "title": "INGRESSION OF DEEP CELLS OF THE MARGINAL REGION OF THE BLASTODERM DURING EARLY GASTRULATION OF FUNDULUS HETEROCLITUS",
+      "section": "Volume 3, Issue 3, October 3, 1994"
+    },
+    {
+      "href": "/zf_info/monitor/vol3.3/8.html",
+      "title": "PUBLICATIONS ON GASTRULATION IN RELATED SPECIES",
+      "section": "Volume 3, Issue 3, October 3, 1994"
+    },
+    {
+      "href": "/zf_info/monitor/vol3.2/contents.html",
+      "title": "Volume 3, Issue 2, June 20, 1994",
+      "section": "Issues:"
+    },
+    {
+      "href": "/zf_info/monitor/vol2.3/contents.html",
+      "title": "Volume 2, Issue 3, August 9, 1993",
+      "section": "Issues:"
+    },
+    {
+      "href": "/zf_info/monitor/vol2.2/contents.html",
+      "title": "Volume 2, Issue 2, March 1, 1993",
+      "section": "Issues:"
+    },
+    {
+      "href": "/zf_info/monitor/vol1/vol1.4.html",
+      "title": "Volume 1, Issue 4, June 1, 1992",
+      "section": "Issues:"
+    },
+    {
+      "href": "/zf_info/monitor/vol1/vol1.3.html",
+      "title": "Volume 1, Issue 3, December 30, 1991",
+      "section": "Issues:"
+    },
+    {
+      "href": "/zf_info/monitor/vol1/vol1.2.html",
+      "title": "Volume 1, Issue 2, August 30, 1991",
+      "section": "Issues:"
+    },
+    {
+      "href": "/zf_info/monitor/vol1/vol1.1.html",
+      "title": "Volume 1, Issue 1, July 1, 1991",
+      "section": "Issues:"
+    },
+    {
+      "href": "/zf_info/monitor/vol3.2/1.html",
+      "title": "Temperature and the Rate of Embryonic Development",
+      "section": "Table of Contents - Previous Issues:"
+    },
+    {
+      "href": "/zf_info/monitor/vol3.2/2.html",
+      "title": "CSH Meeting on Zebrafish Development and Genetics: Synopsis of Community Organizational Session",
+      "section": "Table of Contents - Previous Issues:"
+    },
+    {
+      "href": "/zf_info/monitor/vol3.2/3.html",
+      "title": "Electronic Zebrafish",
+      "section": "Table of Contents - Previous Issues:"
+    },
+    {
+      "href": "/zf_info/monitor/vol3.2/4.html",
+      "title": "Large-Scale Mutagenesis in the Zebrafish: In Search of Genes Controlling Development in a Vertebrate",
+      "section": "Table of Contents - Previous Issues:"
+    },
+    {
+      "href": "/zf_info/monitor/vol3.2/5.html",
+      "title": "A Genetic Linkage Map for the Zebrafish",
+      "section": "Table of Contents - Previous Issues:"
+    },
+    {
+      "href": "/zf_info/monitor/vol3.2/6.html",
+      "title": "Identification of RAPD Primers That Reveal Extensive Polymorphisms Between Laboratory Strains of Zebrafish",
+      "section": "Table of Contents - Previous Issues:"
+    },
+    {
+      "href": "/zf_info/monitor/vol3.2/7.html",
+      "title": "Two Color Whole-Mount in situ Hybridization",
+      "section": "Table of Contents - Previous Issues:"
+    },
+    {
+      "href": "/zf_info/monitor/vol3.2/8.html",
+      "title": "Zebrafish Cancer Research",
+      "section": "Table of Contents - Previous Issues:"
+    },
+    {
+      "href": "/zf_info/monitor/vol3.2/9.html",
+      "title": "Postdoctoral Position",
+      "section": "Table of Contents - Previous Issues:"
+    },
+    {
+      "href": "/zf_info/monitor/vol3.1/vol3.1.html",
+      "title": "Expression of the Novel Zebrafish Gene hlx-1 in the Prechordal Plate and During Development",
+      "section": "Table of Contents - Previous Issues:"
+    },
+    {
+      "href": "/zf_info/monitor/vol2.4/vol2.4.html",
+      "title": "The Phylogenetic Position of the Zebrafish (Danio rerio). A Model System in Developmental Biology: An Invitation to the Comparative Method",
+      "section": "Table of Contents - Previous Issues:"
+    },
+    {
+      "href": "/zf_info/monitor/vol2.3/1.html",
+      "title": "The Ventral and Posterior Expression of the Zebrafish Homeobox Gene eve1 is Perturbed in Dorsalized and Mutant Embryos",
+      "section": "Table of Contents - Previous Issues:"
+    },
+    {
+      "href": "/zf_info/monitor/vol2.3/2.html",
+      "title": "Cardiovascular Development in the Zebrafish: I. Myocardial Fate Map and Heart Tube Formation",
+      "section": "Table of Contents - Previous Issues:"
+    },
+    {
+      "href": "/zf_info/monitor/vol2.3/3.html",
+      "title": "Mark These Dates on Your Calendar!",
+      "section": "Table of Contents - Previous Issues:"
+    },
+    {
+      "href": "/zf_info/monitor/vol2.3/4.html",
+      "title": "Gentle Fixation By Freeze Substituion Gives Excellent Histological Results With Zebrafish Embryos",
+      "section": "Table of Contents - Previous Issues:"
+    },
+    {
+      "href": "/zf_info/monitor/vol2.3/5.html",
+      "title": "Autonomous Expression of the nic1 Acetylcholine Receptor Mutation in Zebrafish Muscle Cells",
+      "section": "Table of Contents - Previous Issues:"
+    },
+    {
+      "href": "/zf_info/monitor/vol2.3/6.html",
+      "title": "A Simplified Ribonuclease Protection Assay for Embryos",
+      "section": "Table of Contents - Previous Issues:"
+    },
+    {
+      "href": "/zf_info/monitor/vol2.3/7.html",
+      "title": "Genomic Library",
+      "section": "Table of Contents - Previous Issues:"
+    },
+    {
+      "href": "/zf_info/monitor/vol2.3/8.html",
+      "title": "Tidbits (Nibbles) on Raising Zebrafish Babies",
+      "section": "Table of Contents - Previous Issues:"
+    },
+    {
+      "href": "/zf_info/monitor/vol2.3/9.html",
+      "title": "Nucleic Acid Extraction Procedure for Zebrafish Embryos",
+      "section": "Table of Contents - Previous Issues:"
+    },
+    {
+      "href": "/zf_info/monitor/vol2.2/1.html",
+      "title": "Zebrafish Codon Usage Table",
+      "section": "Table of Contents - Previous Issues:"
+    },
+    {
+      "href": "/zf_info/monitor/vol2.2/2.html",
+      "title": "Letter to the&#160; Editor",
+      "section": "Table of Contents - Previous Issues:"
+    },
+    {
+      "href": "/zf_info/monitor/vol2.2/3.html",
+      "title": "Fish R Us",
+      "section": "Table of Contents - Previous Issues:"
+    },
+    {
+      "href": "/zf_info/monitor/vol2.2/4.html",
+      "title": "New Protocols for Raising Babies",
+      "section": "Table of Contents - Previous Issues:"
+    },
+    {
+      "href": "/zf_info/monitor/vol2.2/5.html",
+      "title": "Expanded Midline Signaling in the Zebrafish Anterior Central Nervous System",
+      "section": "Table of Contents - Previous Issues:"
+    },
+    {
+      "href": "/zf_info/monitor/vol2.2/6.html",
+      "title": "Cell Cycles, Clonal Strings, and the Origin of the Zebrafish Central Nervous System",
+      "section": "Table of Contents - Previous Issues:"
+    },
+    {
+      "href": "/zf_info/monitor/vol2.2/7.html",
+      "title": "Editorial",
+      "section": "Table of Contents - Previous Issues:"
+    },
+    {
+      "href": "/zf_info/monitor/vol2.2/8.html",
+      "title": "Characterization of a Cell Line Derived from Zebrafish (Brachydanio rerio) Embryos",
+      "section": "Table of Contents - Previous Issues:"
+    },
+    {
+      "href": "/zf_info/monitor/vol2.2/9.html",
+      "title": "RNA Extraction from Zebrafish Embryos",
+      "section": "Table of Contents - Previous Issues:"
+    },
+    {
+      "href": "/zf_info/monitor/vol2.1/vol2.1.html",
+      "title": "Our First Open-Invitation Zebrafish Meeting",
+      "section": "Table of Contents - Previous Issues:"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Issues:",
+      "pages": [
+        {
+          "href": "/zf_info/monitor/vol7.1/vol7.1.html",
+          "title": "Volume 7, Issue 1, August 14, 2000"
+        },
+        {
+          "href": "/zf_info/monitor/vol6.1/vol6.1.html",
+          "title": "Volume 6, Issue 1, December 1, 1999"
+        },
+        {
+          "href": "/zf_info/monitor/vol5.1/vol5.1.html",
+          "title": "Volume 5, Issue 1, June 15, 1998"
+        }
+      ]
+    },
+    {
+      "title": "Volume 4, Issue 1, June 10, 1996",
+      "pages": [
+        {
+          "href": "/zf_info/monitor/vol4.1/1.html",
+          "title": "EXPRESSION DOMAINS OF A ZEBRAFISH HOMOLOGUE OF THE DROSOPHILA PAIR-RULE GENE HAIRY CORRESPOND TO PRIMORDIA OF ALTERNATING SOMITES"
+        },
+        {
+          "href": "/zf_info/monitor/vol4.1/2.html",
+          "title": "A SOLUTION FOR DELAYED IN VITRO FERTILIZATION OF ZEBRAFISH EGGS"
+        },
+        {
+          "href": "/zf_info/monitor/vol4.1/3.html",
+          "title": "A PLEA FOR CONVENTIONS"
+        },
+        {
+          "href": "/zf_info/monitor/vol4.1/4.html",
+          "title": "ZEBRAFISH NOMENCLATURE"
+        },
+        {
+          "href": "/zf_info/monitor/vol4.1/5.html",
+          "title": "PREPARATION OF DNA-NLS COMPLEXES FOR MICROINJECTION INTO FERTILIZED ZEBRAFISH EGGS"
+        },
+        {
+          "href": "/zf_info/monitor/vol4.1/6.html",
+          "title": "TEMPERATURE-SENSITIVE MUTATIONS THAT CAUSE STAGE-SPECIFIC DEFECTS IN ZEBRAFISH FIN REGENERATION"
+        },
+        {
+          "href": "/zf_info/monitor/vol4.1/7.html",
+          "title": "ZEBRAFISH STOCK CENTER PLANNED"
+        },
+        {
+          "href": "/zf_info/monitor/vol4.1/8.html",
+          "title": "POSTER VIEWING AS A CONTACT SPORT"
+        },
+        {
+          "href": "/zf_info/monitor/vol4.1/9.html",
+          "title": "JANE MARION OPPENHEIMER, 1911-1996"
+        },
+        {
+          "href": "/zf_info/monitor/vol4.1/10.html",
+          "title": "EARLY DEVELOPMENT OF FUNDULUS HETEROCLITUS, Selected References"
+        }
+      ]
+    },
+    {
+      "title": "Volume 3, Issue 6, December 18, 1995",
+      "pages": [
+        {
+          "href": "/zf_info/monitor/vol3.6/4.html",
+          "title": "REGULATIVE INTERACTIONS IN ZEBRAFISH NEURAL CREST"
+        },
+        {
+          "href": "/zf_info/monitor/vol3.6/3.html",
+          "title": "MINIREVIEW: REPEATED SEQUENCE ELEMENTS IN ZEBRAFISH AND THEIR USE IN MOLECULAR GENETIC STUDIES"
+        },
+        {
+          "href": "/zf_info/monitor/vol3.6/7.html",
+          "title": "WHOLE-MOUNT IN SITU HYBRIDIZATION OF THICK TISSUE SECTIONS"
+        },
+        {
+          "href": "/zf_info/monitor/vol3.6/6.html",
+          "title": "CONSTRUCTION OF ZEBRAFISH SPAWNING CAGES"
+        },
+        {
+          "href": "/zf_info/monitor/vol3.6/1.html",
+          "title": "HOW YOU CAN HELP BUILD THE ZEBRAFISH DATABASE"
+        },
+        {
+          "href": "/zf_info/monitor/vol3.6/2.html",
+          "title": "AN ECONOMICAL ZEBRAFISH GENETICS FACILITY"
+        },
+        {
+          "href": "/zf_info/monitor/vol3.6/8.html",
+          "title": "1996 ZEBRAFISH DEVELOPMENT & GENETICS MEETING"
+        },
+        {
+          "href": "/zf_info/monitor/vol3.6/5.html",
+          "title": "15TH ANNUAL SINGER SYMPOSIUM \"Models of Regeneration: Lower Versus Higher Vertebrates\""
+        }
+      ]
+    },
+    {
+      "title": "Volume 3, Issue 5, July 24, 1995",
+      "pages": [
+        {
+          "href": "/zf_info/monitor/vol3.5/1.html",
+          "title": "HALF- TETRAD ANALYSIS IN ZEBRAFISH: MAPPING THE ROS MUTATION AND THE CENTROMERE OF LINKAGE GROUP I"
+        },
+        {
+          "href": "/zf_info/monitor/vol3.5/2.html",
+          "title": "GENE EXPRESSION IN TELEOST FINS AND THE ORIGIN OF VERTEBRATE DIGITS"
+        },
+        {
+          "href": "/zf_info/monitor/vol3.5/3.html",
+          "title": "ELECTRONIC ZEBRAFISH"
+        },
+        {
+          "href": "/zf_info/monitor/vol3.5/4.html",
+          "title": "KEEPING AND RAISING ZEBRA FISH (DANIO RERIO) IN T&#220;BINGEN"
+        },
+        {
+          "href": "/zf_info/monitor/vol3.5/5.html",
+          "title": "AS AN ALTERNATIVE BABY FOOD TO PARAMECIA"
+        },
+        {
+          "href": "/zf_info/monitor/vol3.5/6.html",
+          "title": "A CONSERVED FAMILY OF ELAV-LIKE GENES IN VERTEBRATES"
+        },
+        {
+          "href": "/zf_info/monitor/vol3.5/7.html",
+          "title": "PRODUCTION OF ANDROGENETIC HAPLOIDS AND DIPLOIDS"
+        },
+        {
+          "href": "/zf_info/monitor/vol3.5/8.html",
+          "title": "DELAYED IN VITRO FERTILIZATION OF ZEBRAFISH EGGS USING COHO SALMON (ONCHORHYNCHUS KISUTCH) OVARIAN FLUID"
+        },
+        {
+          "href": "/zf_info/monitor/vol3.5/9.html",
+          "title": "CHROMOSOME COMPLEMENT, C-, AG- NOR AND REPLICATION BANDING IN THE ZEBRAFISH Danio rerio"
+        },
+        {
+          "href": "/zf_info/monitor/vol3.5/10.html",
+          "title": "ZEBRAFISH WEB SERVER (SOUTH CAROLINA) CHANGES"
+        },
+        {
+          "href": "/zf_info/monitor/vol3.5/11.html",
+          "title": "FISHSCOPE"
+        },
+        {
+          "href": "/zf_info/monitor/vol3.5/12.html",
+          "title": "POSTDOC POSITION"
+        },
+        {
+          "href": "/zf_info/monitor/vol3.5/13.html",
+          "title": "POSITION TO RUN ZEBRAFISH AND XENOPUS FACILITIES"
+        },
+        {
+          "href": "/zf_info/monitor/vol3.5/14.html",
+          "title": "ZEBRAFISH DEVELOPMENT IN SPACE"
+        },
+        {
+          "href": "/zf_info/monitor/vol3.5/15.html",
+          "title": "ZEBRAFISH YAC LIBRARY?"
+        }
+      ]
+    },
+    {
+      "title": "Volume 3, Issue 4, February 27, 1995",
+      "pages": [
+        {
+          "href": "/zf_info/monitor/vol3.4/1.html",
+          "title": "INTESTINAL CAPILLARIASIS IN ZEBRAFISH"
+        },
+        {
+          "href": "/zf_info/monitor/vol3.4/2.html",
+          "title": "ECTODERMAL PATTERNING AND NEUROGENESIS IN THE ZEBRAFISH"
+        },
+        {
+          "href": "/zf_info/monitor/vol3.4/3.html",
+          "title": "HOLES IN THE FISH NET?"
+        },
+        {
+          "href": "/zf_info/monitor/vol3.4/4.html",
+          "title": "HIGH SCHOOL INSTRUCTION RESOURCE LIST"
+        },
+        {
+          "href": "/zf_info/monitor/vol3.4/5.html",
+          "title": "ZEBRAFISH BOOKS TEMPORARILY OUT OF PRINT BUT, UPDATE PACKETS ARE STILL AVAILABLE"
+        },
+        {
+          "href": "/zf_info/monitor/vol3.4/6.html",
+          "title": "DIFFERENTIAL INDUCTION OF FOUR MSX HOMEOBOX GENES DURING FIN DEVELOPMENT AND REGENERATION IN ZEBRAFISH"
+        },
+        {
+          "href": "/zf_info/monitor/vol3.4/7.html",
+          "title": "TETRAHYMENA: AN EASY ALTERNATIVE FOR PARAMECIA"
+        },
+        {
+          "href": "/zf_info/monitor/vol3.4/8.html",
+          "title": "STAGES OF EMBRYONIC DEVELOPMENT OF THE ZEBRAFISH"
+        },
+        {
+          "href": "/zf_info/monitor/vol3.4/9.html",
+          "title": "LECTURESHIP IN DEVELOPMENTAL BIOLOGY"
+        },
+        {
+          "href": "/zf_info/monitor/vol3.4/10.html",
+          "title": "POSTDOCTORAL POSITIONS"
+        },
+        {
+          "href": "/zf_info/monitor/vol3.4/11.html",
+          "title": "PROFESSIONAL AQUARIST NEEDED TO HELP RUN A 1,000 TANK, 1,500 GALLON ZEBRAFISH FACILITY AT UCSF"
+        },
+        {
+          "href": "/zf_info/monitor/vol3.4/12.html",
+          "title": "POSITION AVAILABLE--NEUROBIOLOGY SWISS FEDERAL INSTITUTE OF TECHNOLOGY, ZURICH"
+        }
+      ]
+    },
+    {
+      "title": "Volume 3, Issue 3, October 3, 1994",
+      "pages": [
+        {
+          "href": "/zf_info/monitor/vol3.3/1.html",
+          "title": "NEUROANATOMY OF THE ZEBRAFISH BRAIN"
+        },
+        {
+          "href": "/zf_info/monitor/vol3.3/2.html",
+          "title": "BIONET NEWS GROUP ESTABLISHED"
+        },
+        {
+          "href": "/zf_info/monitor/vol3.3/3.html",
+          "title": "FISH 'R US"
+        },
+        {
+          "href": "/zf_info/monitor/vol3.3/4.html",
+          "title": "DIFFERENTIATION WAVES"
+        },
+        {
+          "href": "/zf_info/monitor/vol3.3/5.html",
+          "title": "A SIMPLE AND RELIABLE PROTOCOL FOR RAISING FRESHWATER ROTIFIERS AS BABY FOOD"
+        },
+        {
+          "href": "/zf_info/monitor/vol3.3/6.html",
+          "title": "PARAMECIA PROTOCOL"
+        },
+        {
+          "href": "/zf_info/monitor/vol3.3/7.html",
+          "title": "INGRESSION OF DEEP CELLS OF THE MARGINAL REGION OF THE BLASTODERM DURING EARLY GASTRULATION OF FUNDULUS HETEROCLITUS"
+        },
+        {
+          "href": "/zf_info/monitor/vol3.3/8.html",
+          "title": "PUBLICATIONS ON GASTRULATION IN RELATED SPECIES"
+        }
+      ]
+    },
+    {
+      "title": "Issues:",
+      "pages": [
+        {
+          "href": "/zf_info/monitor/vol3.2/contents.html",
+          "title": "Volume 3, Issue 2, June 20, 1994"
+        },
+        {
+          "href": "/zf_info/monitor/vol2.3/contents.html",
+          "title": "Volume 2, Issue 3, August 9, 1993"
+        },
+        {
+          "href": "/zf_info/monitor/vol2.2/contents.html",
+          "title": "Volume 2, Issue 2, March 1, 1993"
+        },
+        {
+          "href": "/zf_info/monitor/vol1/vol1.4.html",
+          "title": "Volume 1, Issue 4, June 1, 1992"
+        },
+        {
+          "href": "/zf_info/monitor/vol1/vol1.3.html",
+          "title": "Volume 1, Issue 3, December 30, 1991"
+        },
+        {
+          "href": "/zf_info/monitor/vol1/vol1.2.html",
+          "title": "Volume 1, Issue 2, August 30, 1991"
+        },
+        {
+          "href": "/zf_info/monitor/vol1/vol1.1.html",
+          "title": "Volume 1, Issue 1, July 1, 1991"
+        }
+      ]
+    },
+    {
+      "title": "Table of Contents - Previous Issues:",
+      "pages": [
+        {
+          "href": "/zf_info/monitor/vol3.2/1.html",
+          "title": "Temperature and the Rate of Embryonic Development"
+        },
+        {
+          "href": "/zf_info/monitor/vol3.2/2.html",
+          "title": "CSH Meeting on Zebrafish Development and Genetics: Synopsis of Community Organizational Session"
+        },
+        {
+          "href": "/zf_info/monitor/vol3.2/3.html",
+          "title": "Electronic Zebrafish"
+        },
+        {
+          "href": "/zf_info/monitor/vol3.2/4.html",
+          "title": "Large-Scale Mutagenesis in the Zebrafish: In Search of Genes Controlling Development in a Vertebrate"
+        },
+        {
+          "href": "/zf_info/monitor/vol3.2/5.html",
+          "title": "A Genetic Linkage Map for the Zebrafish"
+        },
+        {
+          "href": "/zf_info/monitor/vol3.2/6.html",
+          "title": "Identification of RAPD Primers That Reveal Extensive Polymorphisms Between Laboratory Strains of Zebrafish"
+        },
+        {
+          "href": "/zf_info/monitor/vol3.2/7.html",
+          "title": "Two Color Whole-Mount in situ Hybridization"
+        },
+        {
+          "href": "/zf_info/monitor/vol3.2/8.html",
+          "title": "Zebrafish Cancer Research"
+        },
+        {
+          "href": "/zf_info/monitor/vol3.2/9.html",
+          "title": "Postdoctoral Position"
+        },
+        {
+          "href": "/zf_info/monitor/vol3.1/vol3.1.html",
+          "title": "Expression of the Novel Zebrafish Gene hlx-1 in the Prechordal Plate and During Development"
+        },
+        {
+          "href": "/zf_info/monitor/vol2.4/vol2.4.html",
+          "title": "The Phylogenetic Position of the Zebrafish (Danio rerio). A Model System in Developmental Biology: An Invitation to the Comparative Method"
+        },
+        {
+          "href": "/zf_info/monitor/vol2.3/1.html",
+          "title": "The Ventral and Posterior Expression of the Zebrafish Homeobox Gene eve1 is Perturbed in Dorsalized and Mutant Embryos"
+        },
+        {
+          "href": "/zf_info/monitor/vol2.3/2.html",
+          "title": "Cardiovascular Development in the Zebrafish: I. Myocardial Fate Map and Heart Tube Formation"
+        },
+        {
+          "href": "/zf_info/monitor/vol2.3/3.html",
+          "title": "Mark These Dates on Your Calendar!"
+        },
+        {
+          "href": "/zf_info/monitor/vol2.3/4.html",
+          "title": "Gentle Fixation By Freeze Substituion Gives Excellent Histological Results With Zebrafish Embryos"
+        },
+        {
+          "href": "/zf_info/monitor/vol2.3/5.html",
+          "title": "Autonomous Expression of the nic1 Acetylcholine Receptor Mutation in Zebrafish Muscle Cells"
+        },
+        {
+          "href": "/zf_info/monitor/vol2.3/6.html",
+          "title": "A Simplified Ribonuclease Protection Assay for Embryos"
+        },
+        {
+          "href": "/zf_info/monitor/vol2.3/7.html",
+          "title": "Genomic Library"
+        },
+        {
+          "href": "/zf_info/monitor/vol2.3/8.html",
+          "title": "Tidbits (Nibbles) on Raising Zebrafish Babies"
+        },
+        {
+          "href": "/zf_info/monitor/vol2.3/9.html",
+          "title": "Nucleic Acid Extraction Procedure for Zebrafish Embryos"
+        },
+        {
+          "href": "/zf_info/monitor/vol2.2/1.html",
+          "title": "Zebrafish Codon Usage Table"
+        },
+        {
+          "href": "/zf_info/monitor/vol2.2/2.html",
+          "title": "Letter to the&#160; Editor"
+        },
+        {
+          "href": "/zf_info/monitor/vol2.2/3.html",
+          "title": "Fish R Us"
+        },
+        {
+          "href": "/zf_info/monitor/vol2.2/4.html",
+          "title": "New Protocols for Raising Babies"
+        },
+        {
+          "href": "/zf_info/monitor/vol2.2/5.html",
+          "title": "Expanded Midline Signaling in the Zebrafish Anterior Central Nervous System"
+        },
+        {
+          "href": "/zf_info/monitor/vol2.2/6.html",
+          "title": "Cell Cycles, Clonal Strings, and the Origin of the Zebrafish Central Nervous System"
+        },
+        {
+          "href": "/zf_info/monitor/vol2.2/7.html",
+          "title": "Editorial"
+        },
+        {
+          "href": "/zf_info/monitor/vol2.2/8.html",
+          "title": "Characterization of a Cell Line Derived from Zebrafish (Brachydanio rerio) Embryos"
+        },
+        {
+          "href": "/zf_info/monitor/vol2.2/9.html",
+          "title": "RNA Extraction from Zebrafish Embryos"
+        },
+        {
+          "href": "/zf_info/monitor/vol2.1/vol2.1.html",
+          "title": "Our First Open-Invitation Zebrafish Meeting"
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "spine_pages": 93,
+    "collection_html_pages": 99
+  }
+}
