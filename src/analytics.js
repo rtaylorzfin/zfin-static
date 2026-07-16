@@ -13,13 +13,13 @@
  *   anything else (unknown host)  -> NO tracking (never send to the prod property)
  *
  * GA4 measurement ids are client-side/public, so hard-coding them here is fine.
- * Keep these in sync with GA4_ANALYTICS_ID_PRODUCTION / GA4_ANALYTICS_ID_ZFINLABS
- * in commons/env. (The dynamic /action site still reads the per-instance
- * GA4_ANALYTICS_ID at runtime via page.tag / emptyPage.tag.)
+ * This file is the single source of truth for them: the dynamic /action site
+ * loads /analytics.js too (via page.tag / emptyPage.tag), and the former
+ * per-instance GA4_ANALYTICS_ID* properties in commons/env have been retired.
  */
 (function () {
-    var PROD_ID = 'G-R5XJW0QW0Y';     // GA4_ANALYTICS_ID_PRODUCTION
-    var NONPROD_ID = 'G-5J7RMKMBWC';  // GA4_ANALYTICS_ID_ZFINLABS
+    var PROD_ID = 'G-R5XJW0QW0Y';     // production (zfin.org / www.zfin.org)
+    var NONPROD_ID = 'G-5J7RMKMBWC';  // non-prod "zfinlabs" (stage / dev / localhost)
 
     var host = window.location.hostname;
     var id;
