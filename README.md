@@ -9,8 +9,10 @@ rendered through JSP/Tomcat via `StaticFileController`. It is now plain static
 HTML served directly off the Apache DocumentRoot. This repo exists so the
 archival content can be versioned and deployed **independently** of the main app.
 
-> **Status: experiment.** See "Coupling contract" below — these pages are not
-> standalone; they depend on the main app at runtime.
+> **Status:** released as versioned tarballs (latest **v1.1.0**) and deploy-verified
+> end-to-end in a dev stack — served via the main app (see Deploy); prod rollout
+> pends the main-repo `static-file-refactor` branch merge. These pages are not
+> standalone; see the Coupling contract below.
 
 ## Layout
 
@@ -32,6 +34,8 @@ src/
 eleventy.config.js            renders only zf_info/*.html; ignores ZFIN/
 scripts/copy-assets.mjs       copies all non-templated files into build/
 scripts/package.mjs           tars build/ + writes .sha256
+scripts/build-toc.py          extracts nav spines from collection contents pages
+toc/                          generated navigation spines + toc/README.md
 ```
 
 A page fragment looks like:
@@ -55,8 +59,18 @@ npm run build      # build:assets (copy) + build:pages (Eleventy) -> build/
 npm run package    # -> dist/zfin-static-<version>.tar.gz (+ .sha256)
 ```
 
-To change the shell across all ~388 pages (e.g. a `<head>` tag, or the deferred
-no-JS nav/skip-link), edit `src/_includes/layout.njk` once and rebuild.
+To change the shell across all ~388 pages (e.g. a `<head>` tag, or the no-JS
+nav/skip-link — now baked into the layout), edit `src/_includes/layout.njk` once
+and rebuild.
+
+## Navigation TOCs
+
+`scripts/build-toc.py` extracts an ordered navigation **spine** (+ heading-grouped
+sections) from each collection's contents page — step 1 toward back / forward /
+next-section / back-to-toc links. Output is `toc/*.json`; see
+[`toc/README.md`](toc/README.md) for the schema, per-collection coverage
+(zfbook, staging, monitor, anatomy), and the loose collections that have no
+ordered index.
 
 ## Provenance
 
@@ -140,4 +154,10 @@ pinned version to roll forward or back.
 docroot on this repo's behalf are the symlinks. No shared directory, no clobber
 risk.
 
-_Not yet wired up._
+**Wired up + verified.** The `home;static;deployFromRelease` task exists in the
+main repo and was verified end-to-end in a dev stack (root files + zf_info serve
+statically through the symlinks; login/logout, caching, and the no-JS nav all
+exercised). An instance picks up this content when its main-repo build pins a
+release via `zfinStaticVersion` (currently pinned to a v1.x release). One
+provisioning note: `/opt/zfin/static` must be owned by the deploy user — the base
+image pre-creates it (see the main repo's `docker/base/Dockerfile`).
