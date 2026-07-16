@@ -1,0 +1,11 @@
+{
+  "note": "Manifest of the zf_info navigation TOCs. Consumed by fulltoc.html (which collections to render, in order) and booknav.js (map a page path -> its collection via `prefixes`; longest match wins; `fallback` catches unmatched /zf_info pages). Hand-maintained.",
+  "collections": [
+    { "name": "zfbook",  "label": "The Zebrafish Book",            "json": "zfbook.json",  "prefixes": ["/zf_info/zfbook/"] },
+    { "name": "staging", "label": "Developmental Staging Series",  "json": "staging.json", "prefixes": ["/zf_info/zfbook/stages/"] },
+    { "name": "monitor", "label": "The ZFIN Monitor",              "json": "monitor.json", "prefixes": ["/zf_info/monitor/"] },
+    { "name": "anatomy", "label": "Developmental Anatomy Atlas",   "json": "anatomy.json", "prefixes": ["/zf_info/anatomy"] },
+    { "name": "loose",   "label": "Other collections",             "json": "loose.json",   "prefixes": ["/zf_info/catch/", "/zf_info/news/", "/zf_info/sequence/", "/zf_info/dbase/"] },
+    { "name": "misc",    "label": "Miscellaneous pages",           "json": "misc.json",    "prefixes": [], "fallback": true }
+  ]
+}

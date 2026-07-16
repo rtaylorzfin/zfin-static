@@ -50,5 +50,8 @@
 {{ content | trim | safe }}
         </main>
         <div data-zfin-chrome-footer></div>
+        <!-- Prev/next page nav, built from the TOC JSON. `defer` so it never
+             blocks render; inserts a nav bar only when the page is in a spine. -->
+        <script defer src="/booknav.js"></script>
     </body>
 </html>

@@ -37,16 +37,8 @@ title: "ZFIN zf_info — Full Table of Contents"
 
 <script>
 (function () {
-    // Per-collection TOC JSON (siblings of this page under /zf_info/toc/).
-    var COLLECTIONS = [
-        { file: 'zfbook.json',  label: 'The Zebrafish Book' },
-        { file: 'staging.json', label: 'Developmental Staging Series' },
-        { file: 'monitor.json', label: 'The ZFIN Monitor' },
-        { file: 'anatomy.json', label: 'Developmental Anatomy Atlas' },
-        { file: 'loose.json',   label: 'Other collections' },
-        { file: 'misc.json',    label: 'Miscellaneous pages' }
-    ];
-
+    // Collections come from the manifest (list-of-tocs.json) so this page and
+    // booknav.js share one source of truth for what exists and in what order.
     var root = document.getElementById('toc-root');
 
     // Titles come from the pages' <title> text and may carry HTML entities
@@ -89,24 +81,31 @@ title: "ZFIN zf_info — Full Table of Contents"
         return details;
     }
 
-    Promise.all(COLLECTIONS.map(function (c) {
-        return fetch(c.file)
-            .then(function (r) { return r.ok ? r.json() : null; })
-            .then(function (j) { return { c: c, data: j }; })
-            .catch(function () { return { c: c, data: null }; });
-    })).then(function (results) {
-        root.innerHTML = '';
-        results.forEach(function (res) {
-            if (!res.data) {
-                var e = document.createElement('div');
-                e.className = 'err';
-                e.textContent = res.c.label + ': could not load ' + res.c.file;
-                root.appendChild(e);
-                return;
-            }
-            root.appendChild(renderCollection(res.c.label, res.data));
-        });
-    });
+    fetch('list-of-tocs.json')
+        .then(function (r) { return r.ok ? r.json() : null; })
+        .then(function (manifest) {
+            var cols = (manifest && manifest.collections) || [];
+            return Promise.all(cols.map(function (c) {
+                return fetch(c.json)
+                    .then(function (r) { return r.ok ? r.json() : null; })
+                    .then(function (j) { return { c: c, data: j }; })
+                    .catch(function () { return { c: c, data: null }; });
+            }));
+        })
+        .then(function (results) {
+            root.innerHTML = '';
+            results.forEach(function (res) {
+                if (!res.data) {
+                    var e = document.createElement('div');
+                    e.className = 'err';
+                    e.textContent = res.c.label + ': could not load ' + res.c.json;
+                    root.appendChild(e);
+                    return;
+                }
+                root.appendChild(renderCollection(res.c.label, res.data));
+            });
+        })
+        .catch(function () { root.textContent = 'Could not load the TOC manifest.'; });
 
     function setAll(open) {
         [].forEach.call(root.querySelectorAll('details'), function (d) { d.open = open; });
