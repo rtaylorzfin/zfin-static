@@ -19,6 +19,8 @@ title: "ZFIN zf_info — Full Table of Contents"
     .fulltoc .err { color: #a00; }
     .fulltoc .toolbar { margin: .5rem 0 1rem; }
     .fulltoc .toolbar button { margin-right: .5rem; }
+    .fulltoc .booknav-pref { margin: 0 0 1rem; }
+    .fulltoc .booknav-pref-note { color: #888; margin-left: .5rem; font-size: .9em; }
 </style>
 
 <div class="fulltoc">
@@ -32,6 +34,13 @@ title: "ZFIN zf_info — Full Table of Contents"
         <button type="button" id="toc-expand">Expand all</button>
         <button type="button" id="toc-collapse">Collapse all</button>
     </div>
+    <p class="booknav-pref">
+        <label>
+            <input type="checkbox" id="booknav-toggle">
+            Show a prev/next navigation bar at the bottom of reference pages
+        </label>
+        <span class="booknav-pref-note" id="booknav-pref-note"></span>
+    </p>
     <div id="toc-root">Loading&hellip;</div>
 </div>
 
@@ -45,6 +54,28 @@ title: "ZFIN zf_info — Full Table of Contents"
     // (e.g. "&gt;"); decode them for display.
     var decoder = document.createElement('textarea');
     function decode(s) { decoder.innerHTML = s || ''; return decoder.value; }
+
+    // Opt-in toggle for the per-page prev/next nav (booknav.js), saved in
+    // localStorage under 'zfin-booknav'. Off by default.
+    (function setupBooknavToggle() {
+        var KEY = 'zfin-booknav';
+        var box = document.getElementById('booknav-toggle');
+        var note = document.getElementById('booknav-pref-note');
+        function paint() {
+            note.textContent = box.checked
+                ? 'On — a Prev / Contents / Next bar appears on pages that are part of a sequence.'
+                : 'Off.';
+        }
+        try { box.checked = localStorage.getItem(KEY) === 'on'; } catch (e) {}
+        paint();
+        box.addEventListener('change', function () {
+            try {
+                if (box.checked) localStorage.setItem(KEY, 'on');
+                else localStorage.removeItem(KEY);
+            } catch (e) {}
+            paint();
+        });
+    })();
 
     function renderCollection(label, data) {
         var details = document.createElement('details');

@@ -10,13 +10,19 @@
  * Cost: zero network for non-zf_info pages (synchronous bail-out); otherwise at
  * most two small, browser-cacheable JSON fetches (manifest + one collection),
  * none of which block rendering.
+ *
+ * DISABLED BY DEFAULT: it does nothing unless localStorage 'zfin-booknav' === 'on'
+ * (toggle on /zf_info/toc/fulltoc.html).
  */
 (function () {
     var path = window.location.pathname;
 
-    // Cheap synchronous bail-out -- no fetch for pages that can't have nav.
+    // Cheap synchronous bail-out -- no fetch (and no work) for pages that can't
+    // or shouldn't show nav.
     if (path.indexOf('/zf_info/') !== 0) return;      // not a zf_info page
     if (path.indexOf('/zf_info/toc/') === 0) return;  // the TOC/index pages themselves
+    // Off by default; opt in via the toggle on /zf_info/toc/fulltoc.html.
+    try { if (localStorage.getItem('zfin-booknav') !== 'on') return; } catch (e) { return; }
 
     var TOC = '/zf_info/toc/';
     var decoder = document.createElement('textarea');
