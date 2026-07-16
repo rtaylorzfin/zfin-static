@@ -1,412 +1,340 @@
 {
-  "collection": "zfbook",
-  "seed": "/zf_info/zfbook/cont.html",
-  "spine": [
+  "metadata": {
+    "title": "The Zebrafish Book",
+    "identifier": "zfbook"
+  },
+  "links": [
+    {
+      "rel": "contents",
+      "href": "/zf_info/zfbook/cont.html"
+    }
+  ],
+  "readingOrder": [
     {
       "href": "/zf_info/zfbook/chapt1/1.1.html",
-      "title": "Availability and simple care",
-      "section": "Chapter 1 - GENERAL METHODS FOR ZEBRAFISH CARE"
+      "title": "Availability and simple care"
     },
     {
       "href": "/zf_info/zfbook/chapt1/1.2.html",
-      "title": "Food",
-      "section": "Chapter 1 - GENERAL METHODS FOR ZEBRAFISH CARE"
+      "title": "Food"
     },
     {
       "href": "/zf_info/zfbook/chapt1/1.3.html",
-      "title": "Water",
-      "section": "Chapter 1 - GENERAL METHODS FOR ZEBRAFISH CARE"
+      "title": "Water"
     },
     {
       "href": "/zf_info/zfbook/chapt1/1.4.html",
-      "title": "Fish Diseases",
-      "section": "Chapter 1 - GENERAL METHODS FOR ZEBRAFISH CARE"
+      "title": "Fish Diseases"
     },
     {
       "href": "/zf_info/zfbook/chapt1/1.5.html",
-      "title": "Quarantine Room Procedures",
-      "section": "Chapter 1 - GENERAL METHODS FOR ZEBRAFISH CARE"
+      "title": "Quarantine Room Procedures"
     },
     {
       "href": "/zf_info/zfbook/chapt1/1.6.html",
-      "title": "Cleaning Tanks",
-      "section": "Chapter 1 - GENERAL METHODS FOR ZEBRAFISH CARE"
+      "title": "Cleaning Tanks"
     },
     {
       "href": "/zf_info/zfbook/chapt1/1.7.html",
-      "title": "Shipping Fish",
-      "section": "Chapter 1 - GENERAL METHODS FOR ZEBRAFISH CARE"
+      "title": "Shipping Fish"
     },
     {
       "href": "/zf_info/zfbook/chapt1/1.8.html",
-      "title": "Keeping Track Of Stocks",
-      "section": "Chapter 1 - GENERAL METHODS FOR ZEBRAFISH CARE"
+      "title": "Keeping Track Of Stocks"
     },
     {
       "href": "/zf_info/zfbook/chapt1/1.9.html",
-      "title": "Zebrafish Standard Protocol Form",
-      "section": "Chapter 1 - GENERAL METHODS FOR ZEBRAFISH CARE"
+      "title": "Zebrafish Standard Protocol Form"
     },
     {
       "href": "/zf_info/zfbook/chapt2/2.1.html",
-      "title": "Simple Method For Steady, Low-Level Embryo Production",
-      "section": "Chapter 2 - BREEDING"
+      "title": "Simple Method For Steady, Low-Level Embryo Production"
     },
     {
       "href": "/zf_info/zfbook/chapt2/2.2.html",
-      "title": "Method For Maximal Embryo Production",
-      "section": "Chapter 2 - BREEDING"
+      "title": "Method For Maximal Embryo Production"
     },
     {
       "href": "/zf_info/zfbook/chapt2/2.3.html",
-      "title": "Embryo Collection",
-      "section": "Chapter 2 - BREEDING"
+      "title": "Embryo Collection"
     },
     {
       "href": "/zf_info/zfbook/chapt2/2.4.html",
-      "title": "Simple Schedule For Breeding Zebrafish",
-      "section": "Chapter 2 - BREEDING"
+      "title": "Simple Schedule For Breeding Zebrafish"
     },
     {
       "href": "/zf_info/zfbook/chapt2/2.5.html",
-      "title": "Zebrafish Breeding Schedule For Maximal Embryo Production",
-      "section": "Chapter 2 - BREEDING"
+      "title": "Zebrafish Breeding Schedule For Maximal Embryo Production"
     },
     {
       "href": "/zf_info/zfbook/chapt2/2.6.html",
-      "title": "Detailed Methods For Breeding Over Marbles",
-      "section": "Chapter 2 - BREEDING"
+      "title": "Detailed Methods For Breeding Over Marbles"
     },
     {
       "href": "/zf_info/zfbook/chapt2/2.7.html",
-      "title": "Pair-Wise Breeding Of Individual Or Natural Cross Fish",
-      "section": "Chapter 2 - BREEDING"
+      "title": "Pair-Wise Breeding Of Individual Or Natural Cross Fish"
     },
     {
       "href": "/zf_info/zfbook/chapt2/2.8.html",
-      "title": "Embryo Production By In Vitro Fertilization",
-      "section": "Chapter 2 - BREEDING"
+      "title": "Embryo Production By In Vitro Fertilization"
     },
     {
       "href": "/zf_info/zfbook/chapt3/3.1.html",
-      "title": "A Simple Method for Raising Babies",
-      "section": "Chapter 3 - EMBRYONIC AND LARVAL CULTURE"
+      "title": "A Simple Method for Raising Babies"
     },
     {
       "href": "/zf_info/zfbook/chapt3/3.2.html",
-      "title": "Raising Larvae in a Nursery",
-      "section": "Chapter 3 - EMBRYONIC AND LARVAL CULTURE"
+      "title": "Raising Larvae in a Nursery"
     },
     {
       "href": "/zf_info/zfbook/chapt3/3.3.html",
-      "title": "Simple, Quick Methods For Raising Paramecia",
-      "section": "Chapter 3 - EMBRYONIC AND LARVAL CULTURE"
+      "title": "Simple, Quick Methods For Raising Paramecia"
     },
     {
       "href": "/zf_info/zfbook/chapt3/3.4.html",
-      "title": "A Semi-Sterile Method For Raising Paramecia",
-      "section": "Chapter 3 - EMBRYONIC AND LARVAL CULTURE"
+      "title": "A Semi-Sterile Method For Raising Paramecia"
     },
     {
       "href": "/zf_info/zfbook/chapt3/3.5.html",
-      "title": "Growing Paramecia Under Sterile Conditions",
-      "section": "Chapter 3 - EMBRYONIC AND LARVAL CULTURE"
+      "title": "Growing Paramecia Under Sterile Conditions"
     },
     {
       "href": "/zf_info/zfbook/chapt3/3.6.html",
-      "title": "Paramecia Culture Medium",
-      "section": "Chapter 3 - EMBRYONIC AND LARVAL CULTURE"
+      "title": "Paramecia Culture Medium"
     },
     {
       "href": "/zf_info/zfbook/chapt3/3.7.html",
-      "title": "Purification of Paramecia",
-      "section": "Chapter 3 - EMBRYONIC AND LARVAL CULTURE"
+      "title": "Purification of Paramecia"
     },
     {
       "href": "/zf_info/zfbook/chapt3/3.8.html",
-      "title": "Microworms as a Food Source",
-      "section": "Chapter 3 - EMBRYONIC AND LARVAL CULTURE"
+      "title": "Microworms as a Food Source"
     },
     {
       "href": "/zf_info/zfbook/chapt3/3.9.html",
-      "title": "A Simple Method for Raising Larvae",
-      "section": "Chapter 3 - EMBRYONIC AND LARVAL CULTURE"
+      "title": "A Simple Method for Raising Larvae"
     },
     {
       "href": "/zf_info/zfbook/stages/stages.html",
-      "title": "Developmental Staging Series",
-      "section": "Chapter 3 - EMBRYONIC AND LARVAL CULTURE"
+      "title": "Developmental Staging Series"
     },
     {
       "href": "/zf_info/zfbook/chapt4/4.1.html",
-      "title": "Removing Embryos From Their Chorions",
-      "section": "Chapter 4 - MICROSCOPIC OBSERVATIONS"
+      "title": "Removing Embryos From Their Chorions"
     },
     {
       "href": "/zf_info/zfbook/chapt4/4.2.html",
-      "title": "Viewing Chambers",
-      "section": "Chapter 4 - MICROSCOPIC OBSERVATIONS"
+      "title": "Viewing Chambers"
     },
     {
       "href": "/zf_info/zfbook/chapt4/4.3.html",
-      "title": "Agar Mounting",
-      "section": "Chapter 4 - MICROSCOPIC OBSERVATIONS"
+      "title": "Agar Mounting"
     },
     {
       "href": "/zf_info/zfbook/chapt4/4.4.html",
-      "title": "Methyl Cellulose Mounting",
-      "section": "Chapter 4 - MICROSCOPIC OBSERVATIONS"
+      "title": "Methyl Cellulose Mounting"
     },
     {
       "href": "/zf_info/zfbook/chapt5/5.1.html",
-      "title": "A Device to Hold Zebrafish Embryos During Microinjection",
-      "section": "Chapter 5 - CELLULAR METHODS"
+      "title": "A Device to Hold Zebrafish Embryos During Microinjection"
     },
     {
       "href": "/zf_info/zfbook/chapt5/5.2.html",
-      "title": "Blastomere Lineage Analysis",
-      "section": "Chapter 5 - CELLULAR METHODS"
+      "title": "Blastomere Lineage Analysis"
     },
     {
       "href": "/zf_info/zfbook/chapt5/5.3.html",
-      "title": "DiI Labeling",
-      "section": "Chapter 5 - CELLULAR METHODS"
+      "title": "DiI Labeling"
     },
     {
       "href": "/zf_info/zfbook/chapt5/5.4.html",
-      "title": "Labeling Single Cells With Lineage Tracers",
-      "section": "Chapter 5 - CELLULAR METHODS"
+      "title": "Labeling Single Cells With Lineage Tracers"
     },
     {
       "href": "/zf_info/zfbook/chapt5/5.5.html",
-      "title": "Laser-ablation of Single Cells",
-      "section": "Chapter 5 - CELLULAR METHODS"
+      "title": "Laser-ablation of Single Cells"
     },
     {
       "href": "/zf_info/zfbook/chapt5/5.6.html",
-      "title": "Overview of Single Cell Transplantation",
-      "section": "Chapter 5 - CELLULAR METHODS"
+      "title": "Overview of Single Cell Transplantation"
     },
     {
       "href": "/zf_info/zfbook/chapt5/5.7.html",
-      "title": "Detailed Procedure for Transplanting Single Cells",
-      "section": "Chapter 5 - CELLULAR METHODS"
+      "title": "Detailed Procedure for Transplanting Single Cells"
     },
     {
       "href": "/zf_info/zfbook/chapt5/5.8.html",
-      "title": "An Inexpensive and Easy Microinjection Embryo-Tray",
-      "section": "Chapter 5 - CELLULAR METHODS"
+      "title": "An Inexpensive and Easy Microinjection Embryo-Tray"
     },
     {
       "href": "/zf_info/zfbook/chapt6.html",
-      "title": "Preparing Embryos for Cell Culture",
-      "section": "Chapter 6 - DISSOCIATED CELL CULTURE"
+      "title": "Preparing Embryos for Cell Culture"
     },
     {
       "href": "/zf_info/zfbook/chapt7/7.1.html",
-      "title": "Conventions For Naming Zebrafish Genes",
-      "section": "Chapter 7 - GENETIC METHODS"
+      "title": "Conventions For Naming Zebrafish Genes"
     },
     {
       "href": "/zf_info/zfbook/chapt7/7.2.html",
-      "title": "Suggested Guidelines For Maintaining Mutant Stocks",
-      "section": "Chapter 7 - GENETIC METHODS"
+      "title": "Suggested Guidelines For Maintaining Mutant Stocks"
     },
     {
       "href": "/zf_info/zfbook/chapt7/7.3.html",
-      "title": "Overview Of Methods For Parthenogenesis",
-      "section": "Chapter 7 - GENETIC METHODS"
+      "title": "Overview Of Methods For Parthenogenesis"
     },
     {
       "href": "/zf_info/zfbook/chapt7/7.4.html",
-      "title": "Production Of Haploid Embryos",
-      "section": "Chapter 7 - GENETIC METHODS"
+      "title": "Production Of Haploid Embryos"
     },
     {
       "href": "/zf_info/zfbook/chapt7/7.5.html",
-      "title": "Production Of Homozygous Diploid Embryos",
-      "section": "Chapter 7 - GENETIC METHODS"
+      "title": "Production Of Homozygous Diploid Embryos"
     },
     {
       "href": "/zf_info/zfbook/chapt7/7.52.html",
-      "title": "Delayed In Vitro Fertilization Using Coho Salmon Ovarian Fluid",
-      "section": "Chapter 7 - GENETIC METHODS"
+      "title": "Delayed In Vitro Fertilization Using Coho Salmon Ovarian Fluid"
     },
     {
       "href": "/zf_info/zfbook/chapt7/7.55.html",
-      "title": "Production Of Androgenetic Haploids and Diploids",
-      "section": "Chapter 7 - GENETIC METHODS"
+      "title": "Production Of Androgenetic Haploids and Diploids"
     },
     {
       "href": "/zf_info/zfbook/chapt7/7.6.html",
-      "title": "Freezing Sperm",
-      "section": "Chapter 7 - GENETIC METHODS"
+      "title": "Freezing Sperm"
     },
     {
       "href": "/zf_info/zfbook/chapt7/7.7.html",
-      "title": "Thawing And Using Frozen Sperm For In Vitro Fertilization",
-      "section": "Chapter 7 - GENETIC METHODS"
+      "title": "Thawing And Using Frozen Sperm For In Vitro Fertilization"
     },
     {
       "href": "/zf_info/zfbook/chapt7/7.8.html",
-      "title": "Fin Amputations",
-      "section": "Chapter 7 - GENETIC METHODS"
+      "title": "Fin Amputations"
     },
     {
       "href": "/zf_info/zfbook/chapt7/7.9.html",
-      "title": "Gamma Ray Mutagenesis",
-      "section": "Chapter 7 - GENETIC METHODS"
+      "title": "Gamma Ray Mutagenesis"
     },
     {
       "href": "/zf_info/zfbook/chapt7/7.10.html",
-      "title": "Chemical Mutagenesis",
-      "section": "Chapter 7 - GENETIC METHODS"
+      "title": "Chemical Mutagenesis"
     },
     {
       "href": "/zf_info/zfbook/chapt7/7.11.html",
-      "title": "Testosterone Treatment To Produce Males",
-      "section": "Chapter 7 - GENETIC METHODS"
+      "title": "Testosterone Treatment To Produce Males"
     },
     {
       "href": "/zf_info/zfbook/zfstrn.html",
-      "title": "Genetic Strains",
-      "section": "Chapter 7 - GENETIC METHODS"
+      "title": "Genetic Strains"
     },
     {
       "href": "/zf_info/zfbook/chapt8/8.05.html",
-      "title": "Preparing subbed slides for sections",
-      "section": "Chapter 8 - HISTOLOGICAL METHODS"
+      "title": "Preparing subbed slides for sections"
     },
     {
       "href": "/zf_info/zfbook/chapt8/8.1.html",
-      "title": "OCT Embedding for Cryostat Sectioning of Embryos or Larvae",
-      "section": "Chapter 8 - HISTOLOGICAL METHODS"
+      "title": "OCT Embedding for Cryostat Sectioning of Embryos or Larvae"
     },
     {
       "href": "/zf_info/zfbook/chapt8/8.2.html",
-      "title": "Agar Embedding for Cryostat Sectioning of Embryos or Larvae",
-      "section": "Chapter 8 - HISTOLOGICAL METHODS"
+      "title": "Agar Embedding for Cryostat Sectioning of Embryos or Larvae"
     },
     {
       "href": "/zf_info/zfbook/chapt8/8.3.html",
-      "title": "Gelatin Embedding for Vibratome Sectioning of Embryos or Larvae",
-      "section": "Chapter 8 - HISTOLOGICAL METHODS"
+      "title": "Gelatin Embedding for Vibratome Sectioning of Embryos or Larvae"
     },
     {
       "href": "/zf_info/zfbook/chapt8/8.4.html",
-      "title": "Staining Sections with Antibodies Using PAP",
-      "section": "Chapter 8 - HISTOLOGICAL METHODS"
+      "title": "Staining Sections with Antibodies Using PAP"
     },
     {
       "href": "/zf_info/zfbook/chapt8/8.5.html",
-      "title": "Staining Whole-Mount Embryos with PAP",
-      "section": "Chapter 8 - HISTOLOGICAL METHODS"
+      "title": "Staining Whole-Mount Embryos with PAP"
     },
     {
       "href": "/zf_info/zfbook/chapt8/8.6.html",
-      "title": "Solutions for Antibody Staining Protocols",
-      "section": "Chapter 8 - HISTOLOGICAL METHODS"
+      "title": "Solutions for Antibody Staining Protocols"
     },
     {
       "href": "/zf_info/zfbook/chapt8/8.7.html",
-      "title": "Whole-Mount Staining of Biotin-Dextran Injected Zebrafish Embryos",
-      "section": "Chapter 8 - HISTOLOGICAL METHODS"
+      "title": "Whole-Mount Staining of Biotin-Dextran Injected Zebrafish Embryos"
     },
     {
       "href": "/zf_info/zfbook/chapt8/8.8.html",
-      "title": "Photoconversion of Fluorescently Labeled Profiles for EM",
-      "section": "Chapter 8 - HISTOLOGICAL METHODS"
+      "title": "Photoconversion of Fluorescently Labeled Profiles for EM"
     },
     {
       "href": "/zf_info/zfbook/chapt8/8.9.html",
-      "title": "Chromosome Spreads",
-      "section": "Chapter 8 - HISTOLOGICAL METHODS"
+      "title": "Chromosome Spreads"
     },
     {
       "href": "/zf_info/zfbook/chapt8/8.10.html",
-      "title": "Fixation by Freeze Substitution",
-      "section": "Chapter 8 - HISTOLOGICAL METHODS"
+      "title": "Fixation by Freeze Substitution"
     },
     {
       "href": "/zf_info/zfbook/zfmabs.html",
-      "title": "Zebrafish Monoclonal Antibodies",
-      "section": "Chapter 8 - HISTOLOGICAL METHODS"
+      "title": "Zebrafish Monoclonal Antibodies"
     },
     {
       "href": "/zf_info/zfbook/chapt9/9.1.html",
-      "title": "Extraction Of Proteins From Zebrafish Embryos For SDS-Gel Analysis",
-      "section": "Chapter 9 - MOLECULAR METHODS"
+      "title": "Extraction Of Proteins From Zebrafish Embryos For SDS-Gel Analysis"
     },
     {
       "href": "/zf_info/zfbook/chapt9/9.2.html",
-      "title": "Western Blots Of Zebrafish Embryos",
-      "section": "Chapter 9 - MOLECULAR METHODS"
+      "title": "Western Blots Of Zebrafish Embryos"
     },
     {
       "href": "/zf_info/zfbook/chapt9/9.3.html",
-      "title": "Preparation Of Genomic Dna",
-      "section": "Chapter 9 - MOLECULAR METHODS"
+      "title": "Preparation Of Genomic Dna"
     },
     {
       "href": "/zf_info/zfbook/chapt9/9.4.html",
-      "title": "Preparation Of Genomic Dna For Southern Analysis",
-      "section": "Chapter 9 - MOLECULAR METHODS"
+      "title": "Preparation Of Genomic Dna For Southern Analysis"
     },
     {
       "href": "/zf_info/zfbook/chapt9/9.5.html",
-      "title": "Rapid Isolation Of Rna From Zebrafish",
-      "section": "Chapter 9 - MOLECULAR METHODS"
+      "title": "Rapid Isolation Of Rna From Zebrafish"
     },
     {
       "href": "/zf_info/zfbook/chapt9/9.6.html",
-      "title": "Extraction And Purification Of Rna From Zebrafish Embryos",
-      "section": "Chapter 9 - MOLECULAR METHODS"
+      "title": "Extraction And Purification Of Rna From Zebrafish Embryos"
     },
     {
       "href": "/zf_info/zfbook/chapt9/9.7.html",
-      "title": "Preparation Of High Quality Rna From Zebrafish Embryos",
-      "section": "Chapter 9 - MOLECULAR METHODS"
+      "title": "Preparation Of High Quality Rna From Zebrafish Embryos"
     },
     {
       "href": "/zf_info/zfbook/chapt9/9.8.html",
-      "title": "Whole-Mount In Situ Hybridization",
-      "section": "Chapter 9 - MOLECULAR METHODS"
+      "title": "Whole-Mount In Situ Hybridization"
     },
     {
       "href": "/zf_info/zfbook/chapt9/9.82.html",
-      "title": "High Resolution Whole-Mount In Situ Hybridization",
-      "section": "Chapter 9 - MOLECULAR METHODS"
+      "title": "High Resolution Whole-Mount In Situ Hybridization"
     },
     {
       "href": "/zf_info/zfbook/chapt9/9.85.html",
-      "title": "Two Color Whole-Mount Rna In Situ Hybridization",
-      "section": "Chapter 9 - MOLECULAR METHODS"
+      "title": "Two Color Whole-Mount Rna In Situ Hybridization"
     },
     {
       "href": "/zf_info/zfbook/chapt9/9.9.html",
-      "title": "Sections Of Whole Mount In Situ Hybridization Preparations",
-      "section": "Chapter 9 - MOLECULAR METHODS"
+      "title": "Sections Of Whole Mount In Situ Hybridization Preparations"
     },
     {
       "href": "/zf_info/zfbook/chapt9/9.10.html",
-      "title": "Total Nucleic Acid Extraction Procedure For Zebrafish Embryos",
-      "section": "Chapter 9 - MOLECULAR METHODS"
+      "title": "Total Nucleic Acid Extraction Procedure For Zebrafish Embryos"
     },
     {
       "href": "/zf_info/zfbook/chapt9/9.11.html",
-      "title": "A Simplified Ribonuclease Protection Assay For Zebrafish Embryos",
-      "section": "Chapter 9 - MOLECULAR METHODS"
+      "title": "A Simplified Ribonuclease Protection Assay For Zebrafish Embryos"
     },
     {
       "href": "/zf_info/zfbook/chapt10.html",
-      "title": "ABC Solution (Avidin-Biotin HRP Complex)",
-      "section": "Chapter 10 - RECIPES"
+      "title": "ABC Solution (Avidin-Biotin HRP Complex)"
     }
   ],
-  "sections": [
+  "toc": [
     {
       "title": "Chapter 1 - GENERAL METHODS FOR ZEBRAFISH CARE",
-      "pages": [
+      "children": [
         {
           "href": "/zf_info/zfbook/chapt1/1.1.html",
           "title": "Availability and simple care"
@@ -447,7 +375,7 @@
     },
     {
       "title": "Chapter 2 - BREEDING",
-      "pages": [
+      "children": [
         {
           "href": "/zf_info/zfbook/chapt2/2.1.html",
           "title": "Simple Method For Steady, Low-Level Embryo Production"
@@ -484,7 +412,7 @@
     },
     {
       "title": "Chapter 3 - EMBRYONIC AND LARVAL CULTURE",
-      "pages": [
+      "children": [
         {
           "href": "/zf_info/zfbook/chapt3/3.1.html",
           "title": "A Simple Method for Raising Babies"
@@ -529,7 +457,7 @@
     },
     {
       "title": "Chapter 4 - MICROSCOPIC OBSERVATIONS",
-      "pages": [
+      "children": [
         {
           "href": "/zf_info/zfbook/chapt4/4.1.html",
           "title": "Removing Embryos From Their Chorions"
@@ -550,7 +478,7 @@
     },
     {
       "title": "Chapter 5 - CELLULAR METHODS",
-      "pages": [
+      "children": [
         {
           "href": "/zf_info/zfbook/chapt5/5.1.html",
           "title": "A Device to Hold Zebrafish Embryos During Microinjection"
@@ -587,7 +515,7 @@
     },
     {
       "title": "Chapter 6 - DISSOCIATED CELL CULTURE",
-      "pages": [
+      "children": [
         {
           "href": "/zf_info/zfbook/chapt6.html",
           "title": "Preparing Embryos for Cell Culture"
@@ -596,7 +524,7 @@
     },
     {
       "title": "Chapter 7 - GENETIC METHODS",
-      "pages": [
+      "children": [
         {
           "href": "/zf_info/zfbook/chapt7/7.1.html",
           "title": "Conventions For Naming Zebrafish Genes"
@@ -657,7 +585,7 @@
     },
     {
       "title": "Chapter 8 - HISTOLOGICAL METHODS",
-      "pages": [
+      "children": [
         {
           "href": "/zf_info/zfbook/chapt8/8.05.html",
           "title": "Preparing subbed slides for sections"
@@ -710,7 +638,7 @@
     },
     {
       "title": "Chapter 9 - MOLECULAR METHODS",
-      "pages": [
+      "children": [
         {
           "href": "/zf_info/zfbook/chapt9/9.1.html",
           "title": "Extraction Of Proteins From Zebrafish Embryos For SDS-Gel Analysis"
@@ -767,7 +695,7 @@
     },
     {
       "title": "Chapter 10 - RECIPES",
-      "pages": [
+      "children": [
         {
           "href": "/zf_info/zfbook/chapt10.html",
           "title": "ABC Solution (Avidin-Biotin HRP Complex)"
@@ -776,7 +704,7 @@
     }
   ],
   "coverage": {
-    "spine_pages": 80,
-    "collection_html_pages": 152
+    "readingOrderPages": 80,
+    "collectionHtmlPages": 152
   }
 }

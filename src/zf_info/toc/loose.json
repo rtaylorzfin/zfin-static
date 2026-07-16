@@ -1,232 +1,82 @@
 {
-  "collection": "loose",
-  "seed": null,
-  "note": "Loose collections with no single ordered contents page; grouped and ordered by hand.",
-  "sections": [
+  "metadata": {
+    "title": "Other collections",
+    "identifier": "loose",
+    "description": "Loose collections with no single ordered contents page; grouped and ordered by hand."
+  },
+  "readingOrder": [
+    { "href": "/zf_info/catch/BAC_library.html", "title": "ZFIN Instructions for proposing organisms from which to make new BAC libraries" },
+    { "href": "/zf_info/catch/MCF_8_99.html", "title": "ZFIN &gt;Construction of a high-resolution Zebrafish genetic map" },
+    { "href": "/zf_info/catch/RFA.html", "title": "ZFIN NIH RFA" },
+    { "href": "/zf_info/catch/feb99.html", "title": "ZFIN Zebrafish Breakout Group" },
+    { "href": "/zf_info/catch/fishman.html", "title": "ZFIN CONSTRUCTION OF A" },
+    { "href": "/zf_info/catch/nih.html", "title": "ZFIN TRANS-NIH ZEBRAFISH COORDINATING COMMITTEE ROSTER" },
+    { "href": "/zf_info/catch/oct98.html", "title": "ZFIN Zebrafish Genomics Initiative" },
+    { "href": "/zf_info/catch/resources.html", "title": "ZFIN Zebrafish Resources" },
+    { "href": "/zf_info/catch/talbot.html", "title": "ZFIN Catch of the Day" },
+    { "href": "/zf_info/catch/zon.html", "title": "ZFIN Zon letter" },
+    { "href": "/zf_info/news/Newsletters.html", "title": "ZFIN NEWS - ZFIN Newsletter" },
+    { "href": "/zf_info/news/committees.html", "title": "Zebrafish Committees and Working Groups" },
+    { "href": "/zf_info/news/education.html", "title": "Educational Resources" },
+    { "href": "/zf_info/news/funding_opps.html", "title": "Funding Opportunities" },
+    { "href": "/zf_info/news/mtgs.html", "title": "" },
+    { "href": "/zf_info/news/siteNews.html", "title": "" },
+    { "href": "/zf_info/news/siteNews_2005.html", "title": "ZFIN News 2005" },
+    { "href": "/zf_info/news/siteNews_2006.html", "title": "ZFIN News 2006" },
+    { "href": "/zf_info/sequence/call_for_applications.html", "title": "ZFIN Call For Applications" },
+    { "href": "/zf_info/sequence/sequence.html", "title": "ZFIN Call For Applications" },
+    { "href": "/zf_info/dbase/PAPERS/WWW6/WWW6-97.html", "title": "ZFIN Moving beyond HTML to Create a Multimedia Database with User-Centered Design: A Case Study of a Biological Database" },
+    { "href": "/zf_info/dbase/PAPERS/Web97/web97-final.html", "title": "ZFIN Participatory Design for Widely-Distributed Scientific Communities" },
+    { "href": "/zf_info/dbase/PAPERS/Webnet97/Webnet97.html", "title": "ZFIN Task-centered Navigation in Web-accessible Dataspaces" },
+    { "href": "/zf_info/dbase/PAPERS/chi97_nav_workshop.html", "title": "ZFIN Task-centered navigation" },
+    { "href": "/zf_info/dbase/PAPERS/sdb/dbs.html", "title": "ZFIN  Westerfield et al., On-Line Database" }
+  ],
+  "toc": [
     {
       "title": "CATCH database news",
-      "pages": [
-        {
-          "href": "/zf_info/catch/BAC_library.html",
-          "title": "ZFIN Instructions for proposing organisms from which to make new BAC libraries"
-        },
-        {
-          "href": "/zf_info/catch/MCF_8_99.html",
-          "title": "ZFIN &gt;Construction of a high-resolution Zebrafish genetic map"
-        },
-        {
-          "href": "/zf_info/catch/RFA.html",
-          "title": "ZFIN NIH RFA"
-        },
-        {
-          "href": "/zf_info/catch/feb99.html",
-          "title": "ZFIN Zebrafish Breakout Group"
-        },
-        {
-          "href": "/zf_info/catch/fishman.html",
-          "title": "ZFIN CONSTRUCTION OF A"
-        },
-        {
-          "href": "/zf_info/catch/nih.html",
-          "title": "ZFIN TRANS-NIH ZEBRAFISH COORDINATING COMMITTEE ROSTER"
-        },
-        {
-          "href": "/zf_info/catch/oct98.html",
-          "title": "ZFIN Zebrafish Genomics Initiative"
-        },
-        {
-          "href": "/zf_info/catch/resources.html",
-          "title": "ZFIN Zebrafish Resources"
-        },
-        {
-          "href": "/zf_info/catch/talbot.html",
-          "title": "ZFIN Catch of the Day"
-        },
-        {
-          "href": "/zf_info/catch/zon.html",
-          "title": "ZFIN Zon letter"
-        }
+      "children": [
+        { "href": "/zf_info/catch/BAC_library.html", "title": "ZFIN Instructions for proposing organisms from which to make new BAC libraries" },
+        { "href": "/zf_info/catch/MCF_8_99.html", "title": "ZFIN &gt;Construction of a high-resolution Zebrafish genetic map" },
+        { "href": "/zf_info/catch/RFA.html", "title": "ZFIN NIH RFA" },
+        { "href": "/zf_info/catch/feb99.html", "title": "ZFIN Zebrafish Breakout Group" },
+        { "href": "/zf_info/catch/fishman.html", "title": "ZFIN CONSTRUCTION OF A" },
+        { "href": "/zf_info/catch/nih.html", "title": "ZFIN TRANS-NIH ZEBRAFISH COORDINATING COMMITTEE ROSTER" },
+        { "href": "/zf_info/catch/oct98.html", "title": "ZFIN Zebrafish Genomics Initiative" },
+        { "href": "/zf_info/catch/resources.html", "title": "ZFIN Zebrafish Resources" },
+        { "href": "/zf_info/catch/talbot.html", "title": "ZFIN Catch of the Day" },
+        { "href": "/zf_info/catch/zon.html", "title": "ZFIN Zon letter" }
       ]
     },
     {
       "title": "Community news & meetings",
-      "pages": [
-        {
-          "href": "/zf_info/news/Newsletters.html",
-          "title": "ZFIN NEWS - ZFIN Newsletter"
-        },
-        {
-          "href": "/zf_info/news/committees.html",
-          "title": "Zebrafish Committees and Working Groups"
-        },
-        {
-          "href": "/zf_info/news/education.html",
-          "title": "Educational Resources"
-        },
-        {
-          "href": "/zf_info/news/funding_opps.html",
-          "title": "Funding Opportunities"
-        },
-        {
-          "href": "/zf_info/news/mtgs.html",
-          "title": ""
-        },
-        {
-          "href": "/zf_info/news/siteNews.html",
-          "title": ""
-        },
-        {
-          "href": "/zf_info/news/siteNews_2005.html",
-          "title": "ZFIN News 2005"
-        },
-        {
-          "href": "/zf_info/news/siteNews_2006.html",
-          "title": "ZFIN News 2006"
-        }
+      "children": [
+        { "href": "/zf_info/news/Newsletters.html", "title": "ZFIN NEWS - ZFIN Newsletter" },
+        { "href": "/zf_info/news/committees.html", "title": "Zebrafish Committees and Working Groups" },
+        { "href": "/zf_info/news/education.html", "title": "Educational Resources" },
+        { "href": "/zf_info/news/funding_opps.html", "title": "Funding Opportunities" },
+        { "href": "/zf_info/news/mtgs.html", "title": "" },
+        { "href": "/zf_info/news/siteNews.html", "title": "" },
+        { "href": "/zf_info/news/siteNews_2005.html", "title": "ZFIN News 2005" },
+        { "href": "/zf_info/news/siteNews_2006.html", "title": "ZFIN News 2006" }
       ]
     },
     {
       "title": "Sequencing",
-      "pages": [
-        {
-          "href": "/zf_info/sequence/call_for_applications.html",
-          "title": "ZFIN Call For Applications"
-        },
-        {
-          "href": "/zf_info/sequence/sequence.html",
-          "title": "ZFIN Call For Applications"
-        }
+      "children": [
+        { "href": "/zf_info/sequence/call_for_applications.html", "title": "ZFIN Call For Applications" },
+        { "href": "/zf_info/sequence/sequence.html", "title": "ZFIN Call For Applications" }
       ]
     },
     {
       "title": "Papers / presentations (dbase)",
-      "pages": [
-        {
-          "href": "/zf_info/dbase/PAPERS/WWW6/WWW6-97.html",
-          "title": "ZFIN Moving beyond HTML to Create a Multimedia Database with User-Centered Design: A Case Study of a Biological Database"
-        },
-        {
-          "href": "/zf_info/dbase/PAPERS/Web97/web97-final.html",
-          "title": "ZFIN Participatory Design for Widely-Distributed Scientific Communities"
-        },
-        {
-          "href": "/zf_info/dbase/PAPERS/Webnet97/Webnet97.html",
-          "title": "ZFIN Task-centered Navigation in Web-accessible Dataspaces"
-        },
-        {
-          "href": "/zf_info/dbase/PAPERS/chi97_nav_workshop.html",
-          "title": "ZFIN Task-centered navigation"
-        },
-        {
-          "href": "/zf_info/dbase/PAPERS/sdb/dbs.html",
-          "title": "ZFIN  Westerfield et al., On-Line Database"
-        }
+      "children": [
+        { "href": "/zf_info/dbase/PAPERS/WWW6/WWW6-97.html", "title": "ZFIN Moving beyond HTML to Create a Multimedia Database with User-Centered Design: A Case Study of a Biological Database" },
+        { "href": "/zf_info/dbase/PAPERS/Web97/web97-final.html", "title": "ZFIN Participatory Design for Widely-Distributed Scientific Communities" },
+        { "href": "/zf_info/dbase/PAPERS/Webnet97/Webnet97.html", "title": "ZFIN Task-centered Navigation in Web-accessible Dataspaces" },
+        { "href": "/zf_info/dbase/PAPERS/chi97_nav_workshop.html", "title": "ZFIN Task-centered navigation" },
+        { "href": "/zf_info/dbase/PAPERS/sdb/dbs.html", "title": "ZFIN  Westerfield et al., On-Line Database" }
       ]
     }
   ],
-  "spine": [
-    {
-      "href": "/zf_info/catch/BAC_library.html",
-      "title": "ZFIN Instructions for proposing organisms from which to make new BAC libraries"
-    },
-    {
-      "href": "/zf_info/catch/MCF_8_99.html",
-      "title": "ZFIN &gt;Construction of a high-resolution Zebrafish genetic map"
-    },
-    {
-      "href": "/zf_info/catch/RFA.html",
-      "title": "ZFIN NIH RFA"
-    },
-    {
-      "href": "/zf_info/catch/feb99.html",
-      "title": "ZFIN Zebrafish Breakout Group"
-    },
-    {
-      "href": "/zf_info/catch/fishman.html",
-      "title": "ZFIN CONSTRUCTION OF A"
-    },
-    {
-      "href": "/zf_info/catch/nih.html",
-      "title": "ZFIN TRANS-NIH ZEBRAFISH COORDINATING COMMITTEE ROSTER"
-    },
-    {
-      "href": "/zf_info/catch/oct98.html",
-      "title": "ZFIN Zebrafish Genomics Initiative"
-    },
-    {
-      "href": "/zf_info/catch/resources.html",
-      "title": "ZFIN Zebrafish Resources"
-    },
-    {
-      "href": "/zf_info/catch/talbot.html",
-      "title": "ZFIN Catch of the Day"
-    },
-    {
-      "href": "/zf_info/catch/zon.html",
-      "title": "ZFIN Zon letter"
-    },
-    {
-      "href": "/zf_info/news/Newsletters.html",
-      "title": "ZFIN NEWS - ZFIN Newsletter"
-    },
-    {
-      "href": "/zf_info/news/committees.html",
-      "title": "Zebrafish Committees and Working Groups"
-    },
-    {
-      "href": "/zf_info/news/education.html",
-      "title": "Educational Resources"
-    },
-    {
-      "href": "/zf_info/news/funding_opps.html",
-      "title": "Funding Opportunities"
-    },
-    {
-      "href": "/zf_info/news/mtgs.html",
-      "title": ""
-    },
-    {
-      "href": "/zf_info/news/siteNews.html",
-      "title": ""
-    },
-    {
-      "href": "/zf_info/news/siteNews_2005.html",
-      "title": "ZFIN News 2005"
-    },
-    {
-      "href": "/zf_info/news/siteNews_2006.html",
-      "title": "ZFIN News 2006"
-    },
-    {
-      "href": "/zf_info/sequence/call_for_applications.html",
-      "title": "ZFIN Call For Applications"
-    },
-    {
-      "href": "/zf_info/sequence/sequence.html",
-      "title": "ZFIN Call For Applications"
-    },
-    {
-      "href": "/zf_info/dbase/PAPERS/WWW6/WWW6-97.html",
-      "title": "ZFIN Moving beyond HTML to Create a Multimedia Database with User-Centered Design: A Case Study of a Biological Database"
-    },
-    {
-      "href": "/zf_info/dbase/PAPERS/Web97/web97-final.html",
-      "title": "ZFIN Participatory Design for Widely-Distributed Scientific Communities"
-    },
-    {
-      "href": "/zf_info/dbase/PAPERS/Webnet97/Webnet97.html",
-      "title": "ZFIN Task-centered Navigation in Web-accessible Dataspaces"
-    },
-    {
-      "href": "/zf_info/dbase/PAPERS/chi97_nav_workshop.html",
-      "title": "ZFIN Task-centered navigation"
-    },
-    {
-      "href": "/zf_info/dbase/PAPERS/sdb/dbs.html",
-      "title": "ZFIN  Westerfield et al., On-Line Database"
-    }
-  ],
-  "coverage": {
-    "spine_pages": 25
-  }
+  "coverage": { "readingOrderPages": 25 }
 }

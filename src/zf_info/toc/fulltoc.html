@@ -88,7 +88,7 @@ title: "ZFIN zf_info — Full Table of Contents"
     function renderCollection(label, data) {
         var details = document.createElement('details');
         var summary = document.createElement('summary');
-        var count = (data.spine && data.spine.length) || 0;
+        var count = (data.readingOrder && data.readingOrder.length) || 0;
         summary.appendChild(document.createTextNode(label + ' '));
         var badge = document.createElement('span');
         badge.className = 'count';
@@ -96,7 +96,7 @@ title: "ZFIN zf_info — Full Table of Contents"
         summary.appendChild(badge);
         details.appendChild(summary);
 
-        (data.sections || []).forEach(function (sec) {
+        (data.toc || []).forEach(function (sec) {
             var box = document.createElement('div');
             box.className = 'toc-section';
             if (sec.title) {
@@ -106,7 +106,7 @@ title: "ZFIN zf_info — Full Table of Contents"
                 box.appendChild(h);
             }
             var ul = document.createElement('ul');
-            (sec.pages || []).forEach(function (p) {
+            (sec.children || []).forEach(function (p) {
                 var li = document.createElement('li');
                 var a = document.createElement('a');
                 a.href = p.href;

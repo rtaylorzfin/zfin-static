@@ -1,8 +1,15 @@
 #!/usr/bin/env python3
 """
-Extract an ordered navigation spine (+ heading-grouped sections) from a zf_info
-collection's contents page. Step 1 of the page-nav project (back / forward /
-next-chapter / back-to-toc).
+Extract a Readium Web Publication Manifest (RWPM) subset from a zf_info
+collection's contents page: an ordered `readingOrder` (the linear page sequence)
+plus a heading-grouped `toc`, with a `metadata` block and a `contents` link.
+Step 1 of the page-nav project (back / forward / next-chapter / back-to-toc).
+
+Schema is a pragmatic subset of https://readium.org/webpub-manifest/ -- enough
+to name fields by an established standard without chasing full conformance
+(no @context / media types). Fields: metadata{title,identifier}, links (a
+`contents` link to the source index), readingOrder [{href,title}], toc
+[{title,children:[{href,title}]}], and a non-standard `coverage` extension.
 
 Each collection is driven by a contents page. Flat collections (zfbook, staging)
 have a single index listing their pages in order. Hierarchical ones (monitor,
@@ -22,10 +29,10 @@ ROOT = os.path.join(os.path.dirname(__file__), "..", "src", "zf_info")
 OUT  = os.path.join(os.path.dirname(__file__), "..", "src", "zf_info", "toc")
 
 COLLECTIONS = [
-    dict(name="zfbook",  root="zfbook",        seed="zfbook/cont.html",          follow=None),
-    dict(name="staging", root="zfbook/stages", seed="zfbook/stages/stages.html", follow=None),
-    dict(name="monitor", root="monitor",       seed="monitor/mon.html",          follow=r"/cont\.html$"),
-    dict(name="anatomy", root="anatomy",       seed="anatomy.html",              follow=r"/(24|48|72|120)hrs/(24|48|72|120)hrs\.html$"),
+    dict(name="zfbook",  label="The Zebrafish Book",           root="zfbook",        seed="zfbook/cont.html",          follow=None),
+    dict(name="staging", label="Developmental Staging Series", root="zfbook/stages", seed="zfbook/stages/stages.html", follow=None),
+    dict(name="monitor", label="The ZFIN Monitor",             root="monitor",       seed="monitor/mon.html",          follow=r"/cont\.html$"),
+    dict(name="anatomy", label="Developmental Anatomy Atlas",  root="anatomy",       seed="anatomy.html",              follow=r"/(24|48|72|120)hrs/(24|48|72|120)hrs\.html$"),
 ]
 
 TAG = re.compile(r"<h[1-6][^>]*>.*?</h[1-6]>|<a\s[^>]*>.*?</a>|<area\b[^>]*>", re.S | re.I)
@@ -86,17 +93,23 @@ def build(coll):
 
     walk(seed, None, 0)
 
-    sections = []
+    toc = []
     for p in spine:
-        if not sections or sections[-1]["title"] != p["section"]:
-            sections.append({"title": p["section"], "pages": []})
-        sections[-1]["pages"].append({"href": p["href"], "title": p["title"]})
+        if not toc or toc[-1]["title"] != p["section"]:
+            toc.append({"title": p["section"], "children": []})
+        toc[-1]["children"].append({"href": p["href"], "title": p["title"]})
+
+    reading_order = [{"href": p["href"], "title": p["title"]} for p in spine]
 
     total = len({os.path.relpath(os.path.join(dp, f), ROOT).replace(os.sep, "/")
                  for dp, _, fs in os.walk(os.path.join(ROOT, root)) for f in fs if f.endswith(".html")})
-    return dict(collection=coll["name"], seed="/zf_info/" + seed,
-                spine=spine, sections=sections,
-                coverage=dict(spine_pages=len(spine), collection_html_pages=total))
+    return {
+        "metadata": {"title": coll["label"], "identifier": coll["name"]},
+        "links": [{"rel": "contents", "href": "/zf_info/" + seed}],
+        "readingOrder": reading_order,
+        "toc": toc,
+        "coverage": {"readingOrderPages": len(reading_order), "collectionHtmlPages": total},
+    }
 
 names = sys.argv[1:] or [c["name"] for c in COLLECTIONS]
 for coll in COLLECTIONS:
@@ -105,4 +118,4 @@ for coll in COLLECTIONS:
     doc = build(coll)
     json.dump(doc, open(os.path.join(OUT, coll["name"] + ".json"), "w"), indent=2)
     c = doc["coverage"]
-    print(f"{coll['name']:9} spine={c['spine_pages']:3}  collection_pages={c['collection_html_pages']:3}  sections={len(doc['sections'])}")
+    print(f"{coll['name']:9} readingOrder={c['readingOrderPages']:3}  collection_pages={c['collectionHtmlPages']:3}  toc_groups={len(doc['toc'])}")

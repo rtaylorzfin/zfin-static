@@ -3,9 +3,10 @@
  *
  * Loaded with `defer` from the shared layout footer, so it NEVER blocks page
  * render: the page paints first, then this runs and (asynchronously) fetches the
- * TOC manifest + the current page's collection spine, and -- only if the page is
- * in a spine -- inserts a "Prev | Contents | Next" bar at the bottom. Non-spine
- * pages (collection landing/TOC pages, the anatomy dictionary, etc.) get nothing.
+ * TOC index + the current page's collection reading order, and -- only if the
+ * page is in that sequence -- inserts a "Prev | Contents | Next" bar at the
+ * bottom. Pages not in any sequence (collection landing/TOC pages, the anatomy
+ * dictionary, etc.) get nothing.
  *
  * Cost: zero network for non-zf_info pages (synchronous bail-out); otherwise at
  * most two small, browser-cacheable JSON fetches (manifest + one collection),
@@ -31,6 +32,15 @@
     var decoder = document.createElement('textarea');
     function decode(s) { decoder.innerHTML = s || ''; return decoder.value; }
 
+    // RWPM `links`: find the collection's source contents page (rel "contents").
+    function contentsHref(data) {
+        var links = data.links || [];
+        for (var i = 0; i < links.length; i++) {
+            if (links[i].rel === 'contents' && links[i].href) return links[i].href;
+        }
+        return null;
+    }
+
     // Map the current path to a collection: longest matching prefix wins,
     // else the manifest's `fallback` collection (misc single pages).
     function pick(collections) {
@@ -52,13 +62,13 @@
             return c ? fetch(TOC + c.json).then(function (r) { return r.ok ? r.json() : null; }) : null;
         })
         .then(function (data) {
-            if (!data || !data.spine) return;
-            var spine = data.spine, idx = -1;
-            for (var i = 0; i < spine.length; i++) {
-                if (spine[i].href === path) { idx = i; break; }
+            if (!data || !data.readingOrder) return;
+            var order = data.readingOrder, idx = -1;
+            for (var i = 0; i < order.length; i++) {
+                if (order[i].href === path) { idx = i; break; }
             }
-            if (idx < 0) return;                       // not part of this spine -> no nav
-            insertNav(spine[idx - 1], spine[idx + 1], data.seed || (TOC + 'fulltoc.html'));
+            if (idx < 0) return;                       // not part of this sequence -> no nav
+            insertNav(order[idx - 1], order[idx + 1], contentsHref(data) || (TOC + 'fulltoc.html'));
         })
         .catch(function () { /* progressive enhancement: silent on any failure */ });
 

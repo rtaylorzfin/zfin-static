@@ -65,11 +65,14 @@ and rebuild.
 
 ## Navigation TOCs
 
-`toctools/build-toc.py` extracts an ordered navigation **spine** (+ heading-grouped
-sections) from each collection's contents page — step 1 toward back / forward /
-next-section / back-to-toc links. Output lives in `src/zf_info/toc/*.json` so it
+`toctools/build-toc.py` extracts an ordered **`readingOrder`** (+ heading-grouped
+`toc`) from each collection's contents page — step 1 toward back / forward /
+next-section / back-to-toc links. Each `src/zf_info/toc/<collection>.json` is a
+subset of the **Readium Web Publication Manifest** (RWPM: `metadata` + `links` +
+`readingOrder` + `toc`), so the fields follow an established standard. Output
 ships in the tarball and Apache serves it at **`/zf_info/toc/*.json`** (the
-client-side nav can fetch it). See [`toctools/README.md`](toctools/README.md) for
+client-side nav can fetch it); `list-of-tocs.json` is a hand-maintained index of
+those files (not itself RWPM). See [`toctools/README.md`](toctools/README.md) for
 the schema, per-collection coverage (zfbook, staging, monitor, anatomy), and the
 loose collections that have no ordered index. (`toctools/` is a scratch home for
 the parser for now and will be removed later.)

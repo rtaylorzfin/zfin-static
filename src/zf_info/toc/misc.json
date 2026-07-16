@@ -1,113 +1,41 @@
 {
-  "collection": "misc",
-  "seed": null,
-  "note": "Standalone zf_info pages that are not part of any sequenced collection.",
-  "sections": [
+  "metadata": {
+    "title": "Miscellaneous pages",
+    "identifier": "misc",
+    "description": "Standalone zf_info pages that are not part of any sequenced collection."
+  },
+  "readingOrder": [
+    { "href": "/zf_info/author_guidelines.html", "title": "ZFIN Author Guidelines" },
+    { "href": "/zf_info/author_guide_checklist.html", "title": "ZFIN Author Guide Checklist" },
+    { "href": "/zf_info/nomen.html", "title": "ZFIN Zebrafish Nomenclature" },
+    { "href": "/zf_info/defs.html", "title": "ZFIN Zebrafish deficiency strains" },
+    { "href": "/zf_info/glossary.html", "title": "ZFIN Glossary" },
+    { "href": "/zf_info/syntax_help.html", "title": "ZFIN Site Search Tips" },
+    { "href": "/zf_info/blast_info.html", "title": "ZFIN BLAST programs and datasets" },
+    { "href": "/zf_info/stars.html", "title": "ZFIN: Key to the Expression Rankings" },
+    { "href": "/zf_info/zfin_stats.html", "title": "ZFIN Data Contents" },
+    { "href": "/zf_info/zfprbs.html", "title": "ZFIN Zebrafish Molecular Probes" },
+    { "href": "/zf_info/movies/movies.html", "title": "ZFIN Zebrafish Movies" },
+    { "href": "/zf_info/2006_tutorial/tutorial.html", "title": "Zebrafish Genome Resources Tutorial" }
+  ],
+  "toc": [
     {
       "title": "Miscellaneous pages",
-      "pages": [
-        {
-          "href": "/zf_info/author_guidelines.html",
-          "title": "ZFIN Author Guidelines"
-        },
-        {
-          "href": "/zf_info/author_guide_checklist.html",
-          "title": "ZFIN Author Guide Checklist"
-        },
-        {
-          "href": "/zf_info/nomen.html",
-          "title": "ZFIN Zebrafish Nomenclature"
-        },
-        {
-          "href": "/zf_info/defs.html",
-          "title": "ZFIN Zebrafish deficiency strains"
-        },
-        {
-          "href": "/zf_info/glossary.html",
-          "title": "ZFIN Glossary"
-        },
-        {
-          "href": "/zf_info/syntax_help.html",
-          "title": "ZFIN Site Search Tips"
-        },
-        {
-          "href": "/zf_info/blast_info.html",
-          "title": "ZFIN BLAST programs and datasets"
-        },
-        {
-          "href": "/zf_info/stars.html",
-          "title": "ZFIN: Key to the Expression Rankings"
-        },
-        {
-          "href": "/zf_info/zfin_stats.html",
-          "title": "ZFIN Data Contents"
-        },
-        {
-          "href": "/zf_info/zfprbs.html",
-          "title": "ZFIN Zebrafish Molecular Probes"
-        },
-        {
-          "href": "/zf_info/movies/movies.html",
-          "title": "ZFIN Zebrafish Movies"
-        },
-        {
-          "href": "/zf_info/2006_tutorial/tutorial.html",
-          "title": "Zebrafish Genome Resources Tutorial"
-        }
+      "children": [
+        { "href": "/zf_info/author_guidelines.html", "title": "ZFIN Author Guidelines" },
+        { "href": "/zf_info/author_guide_checklist.html", "title": "ZFIN Author Guide Checklist" },
+        { "href": "/zf_info/nomen.html", "title": "ZFIN Zebrafish Nomenclature" },
+        { "href": "/zf_info/defs.html", "title": "ZFIN Zebrafish deficiency strains" },
+        { "href": "/zf_info/glossary.html", "title": "ZFIN Glossary" },
+        { "href": "/zf_info/syntax_help.html", "title": "ZFIN Site Search Tips" },
+        { "href": "/zf_info/blast_info.html", "title": "ZFIN BLAST programs and datasets" },
+        { "href": "/zf_info/stars.html", "title": "ZFIN: Key to the Expression Rankings" },
+        { "href": "/zf_info/zfin_stats.html", "title": "ZFIN Data Contents" },
+        { "href": "/zf_info/zfprbs.html", "title": "ZFIN Zebrafish Molecular Probes" },
+        { "href": "/zf_info/movies/movies.html", "title": "ZFIN Zebrafish Movies" },
+        { "href": "/zf_info/2006_tutorial/tutorial.html", "title": "Zebrafish Genome Resources Tutorial" }
       ]
     }
   ],
-  "spine": [
-    {
-      "href": "/zf_info/author_guidelines.html",
-      "title": "ZFIN Author Guidelines"
-    },
-    {
-      "href": "/zf_info/author_guide_checklist.html",
-      "title": "ZFIN Author Guide Checklist"
-    },
-    {
-      "href": "/zf_info/nomen.html",
-      "title": "ZFIN Zebrafish Nomenclature"
-    },
-    {
-      "href": "/zf_info/defs.html",
-      "title": "ZFIN Zebrafish deficiency strains"
-    },
-    {
-      "href": "/zf_info/glossary.html",
-      "title": "ZFIN Glossary"
-    },
-    {
-      "href": "/zf_info/syntax_help.html",
-      "title": "ZFIN Site Search Tips"
-    },
-    {
-      "href": "/zf_info/blast_info.html",
-      "title": "ZFIN BLAST programs and datasets"
-    },
-    {
-      "href": "/zf_info/stars.html",
-      "title": "ZFIN: Key to the Expression Rankings"
-    },
-    {
-      "href": "/zf_info/zfin_stats.html",
-      "title": "ZFIN Data Contents"
-    },
-    {
-      "href": "/zf_info/zfprbs.html",
-      "title": "ZFIN Zebrafish Molecular Probes"
-    },
-    {
-      "href": "/zf_info/movies/movies.html",
-      "title": "ZFIN Zebrafish Movies"
-    },
-    {
-      "href": "/zf_info/2006_tutorial/tutorial.html",
-      "title": "Zebrafish Genome Resources Tutorial"
-    }
-  ],
-  "coverage": {
-    "spine_pages": 12
-  }
+  "coverage": { "readingOrderPages": 12 }
 }
