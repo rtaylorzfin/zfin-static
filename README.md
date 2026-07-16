@@ -70,12 +70,12 @@ two assets to the release:
 - `zfin-static-<version>.tar.gz` — the tarball
 - `zfin-static-<version>.tar.gz.sha256` — its checksum
 
-**The tarball extracts straight into the Apache DocumentRoot** — its top-level
-entries are the DocumentRoot contents themselves (`zf_info/`, `images/`,
-`ZFIN/`, `robots.txt`, `favicon.ico`, `analytics.js`), with no `src/` wrapper:
+The tarball's top-level entries are the served paths themselves (`zf_info/`,
+`images/`, `ZFIN/`, `robots.txt`, `favicon.ico`, `analytics.js`), with no `src/`
+wrapper, so it extracts straight onto the static volume:
 
 ```sh
-tar -xzf zfin-static-v1.0.0.tar.gz -C "$TARGETROOT/home"
+tar -xzf zfin-static-v1.0.0.tar.gz -C /opt/zfin/static
 ```
 
 Build one locally the same way CI does:
@@ -84,22 +84,30 @@ Build one locally the same way CI does:
 scripts/make-tarball.sh v1.0.0   # -> dist/zfin-static-v1.0.0.tar.gz (+ .sha256)
 ```
 
-## Deploy (planned — Option 1 from the main repo's design note)
+## Deploy (separate volume + docroot symlinks)
 
-A lightweight CI job lands this content in `$TARGETROOT/home/` (the Apache
-DocumentRoot on the `www_data` volume), on this repo's own cadence and with
-**zero Apache changes** — the files just land where Apache already serves from.
-Two equivalent shapes:
+The content is served from its **own volume** (`/opt/zfin/static`), separate
+from the app's Apache DocumentRoot (`$TARGETROOT/home`). The main repo's
+`home;static;deployFromRelease` Gradle task (run as part of `make`) does the
+deploy:
 
-- **From a release** — download the latest release tarball, verify its
-  `.sha256`, and extract into `$TARGETROOT/home`. Gives immutable, pinnable,
-  rollback-able artifacts.
-- **From a checkout** — `rsync src/` into `$TARGETROOT/home`, triggered by a
-  push webhook.
+1. Download the pinned release tarball and verify its `.sha256`.
+2. **Wipe-first extract** into `/opt/zfin/static` — the volume is exclusively
+   owned by this repo, so clearing it before extraction cleanly drops files
+   removed upstream (no app output or instance state to protect).
+3. Symlink each top-level entry into the DocumentRoot
+   (`$TARGETROOT/home/zf_info -> /opt/zfin/static/zf_info`, etc.).
 
-The two pipelines write to the same `$TARGETROOT/home` but to **disjoint
-subtrees**: the main app owns `/dist`, `WEB-INF`, etc.; this repo owns
-`zf_info/`, `images/`, `ZFIN/`, and the root assets. They must never clobber
-each other.
+Apache serves the symlinked paths as ordinary static files — the httpd
+container mounts `/opt/zfin/static` and `docker/httpd/conf-local` grants
+`<Directory /opt/zfin/static>` with `FollowSymLinks`. A version stamp at
+`/opt/zfin/static/.zfin-static-version` makes the step idempotent; bump the
+pinned version to roll forward or back.
+
+**Ownership is now by volume, not by subtree:** this repo owns all of
+`/opt/zfin/static`; the app owns `$TARGETROOT/home` (its `dist/`, `gwt/`,
+`schemaSpy/`, `asset-manifest.json`, etc.). The only thing the app places in the
+docroot on this repo's behalf are the symlinks. No shared directory, no clobber
+risk.
 
 _Not yet wired up._
