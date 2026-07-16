@@ -89,7 +89,7 @@
                 '.booknav{display:flex;align-items:center;gap:1rem;max-width:60rem;' +
                 'margin:2.5rem auto 1.5rem;padding:.75rem 1rem;border-top:1px solid #ccc;' +
                 'font-family:sans-serif;font-size:.95rem}' +
-                '.booknav a{text-decoration:none}.booknav a:hover{text-decoration:underline}' +
+                '.booknav a{text-decoration:none;white-space:nowrap}.booknav a:hover{text-decoration:underline}' +
                 '.booknav-prev{flex:1 1 0;text-align:left}' +
                 '.booknav-up{flex:0 0 auto;font-weight:600}' +
                 '.booknav-next{flex:1 1 0;text-align:right}';
