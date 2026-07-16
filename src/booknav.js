@@ -23,6 +23,9 @@
     if (path.indexOf('/zf_info/toc/') === 0) return;  // the TOC/index pages themselves
     // Off by default; opt in via the toggle on /zf_info/toc/fulltoc.html.
     try { if (localStorage.getItem('zfin-booknav') !== 'on') return; } catch (e) { return; }
+    // Second opt-in: also link back to the master full TOC.
+    var showFullToc = false;
+    try { showFullToc = localStorage.getItem('zfin-booknav-fulltoc') === 'on'; } catch (e) {}
 
     var TOC = '/zf_info/toc/';
     var decoder = document.createElement('textarea');
@@ -80,6 +83,17 @@
         up.href = contentsHref;
         up.textContent = 'Contents';
         nav.appendChild(up);
+
+        // Optional master-TOC link (skip if Contents already points there).
+        var fullHref = TOC + 'fulltoc.html';
+        if (showFullToc && contentsHref !== fullHref) {
+            var full = document.createElement('a');
+            full.className = 'booknav-full';
+            full.href = fullHref;
+            full.textContent = 'Full contents';
+            nav.appendChild(full);
+        }
+
         nav.appendChild(cell('next', next, 'Next →'));
 
         if (!document.getElementById('booknav-style')) {
@@ -92,6 +106,7 @@
                 '.booknav a{text-decoration:none;white-space:nowrap}.booknav a:hover{text-decoration:underline}' +
                 '.booknav-prev{flex:1 1 0;text-align:left}' +
                 '.booknav-up{flex:0 0 auto;font-weight:600}' +
+                '.booknav-full{flex:0 0 auto}' +
                 '.booknav-next{flex:1 1 0;text-align:right}';
             document.head.appendChild(st);
         }

@@ -41,6 +41,13 @@ title: "ZFIN zf_info — Full Table of Contents"
         </label>
         <span class="booknav-pref-note" id="booknav-pref-note"></span>
     </p>
+    <p class="booknav-pref">
+        <label>
+            <input type="checkbox" id="booknav-fulltoc-toggle">
+            Also add a link back to this full table of contents
+        </label>
+        <span class="booknav-pref-note" id="booknav-fulltoc-pref-note"></span>
+    </p>
     <div id="toc-root">Loading&hellip;</div>
 </div>
 
@@ -55,27 +62,28 @@ title: "ZFIN zf_info — Full Table of Contents"
     var decoder = document.createElement('textarea');
     function decode(s) { decoder.innerHTML = s || ''; return decoder.value; }
 
-    // Opt-in toggle for the per-page prev/next nav (booknav.js), saved in
-    // localStorage under 'zfin-booknav'. Off by default.
-    (function setupBooknavToggle() {
-        var KEY = 'zfin-booknav';
-        var box = document.getElementById('booknav-toggle');
-        var note = document.getElementById('booknav-pref-note');
-        function paint() {
-            note.textContent = box.checked
-                ? 'On — a Prev / Contents / Next bar appears on pages that are part of a sequence.'
-                : 'Off.';
-        }
-        try { box.checked = localStorage.getItem(KEY) === 'on'; } catch (e) {}
+    // Opt-in toggles for the per-page nav (booknav.js), each saved in
+    // localStorage. Off by default.
+    function setupToggle(boxId, key, noteId, onText, offText) {
+        var box = document.getElementById(boxId);
+        var note = document.getElementById(noteId);
+        function paint() { note.textContent = box.checked ? onText : offText; }
+        try { box.checked = localStorage.getItem(key) === 'on'; } catch (e) {}
         paint();
         box.addEventListener('change', function () {
             try {
-                if (box.checked) localStorage.setItem(KEY, 'on');
-                else localStorage.removeItem(KEY);
+                if (box.checked) localStorage.setItem(key, 'on');
+                else localStorage.removeItem(key);
             } catch (e) {}
             paint();
         });
-    })();
+    }
+    setupToggle('booknav-toggle', 'zfin-booknav', 'booknav-pref-note',
+        'On — a Prev / Contents / Next bar appears on pages that are part of a sequence.',
+        'Off.');
+    setupToggle('booknav-fulltoc-toggle', 'zfin-booknav-fulltoc', 'booknav-fulltoc-pref-note',
+        'On — the bar also links back to this page (needs the bar above to be on).',
+        'Off.');
 
     function renderCollection(label, data) {
         var details = document.createElement('details');
