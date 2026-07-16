@@ -9,32 +9,61 @@ rendered through JSP/Tomcat via `StaticFileController`. It is now plain static
 HTML served directly off the Apache DocumentRoot. This repo exists so the
 archival content can be versioned and deployed **independently** of the main app.
 
-> **Status: experiment.** Initial import only. See "Coupling contract" below —
-> these pages are not standalone; they depend on the main app at runtime.
+> **Status: experiment.** See "Coupling contract" below — these pages are not
+> standalone; they depend on the main app at runtime.
 
 ## Layout
 
-Everything served lives under `src/`, mirroring the deployed DocumentRoot layout:
+Source lives under `src/`; a build step renders it into `build/` (the served
+tree). The `zf_info` reference pages are authored as **fragments** — YAML front
+matter (just a `title`) plus the page body — and Eleventy wraps each in the
+shared shell (`src/_includes/layout.njk`). Everything else is served verbatim.
 
 ```
 src/
-  zf_info/      reference pages (~961 files: HTML + inline images)
-  images/       shared site images (~83)
-  ZFIN/         legacy ZFIN assets (~23)
+  _includes/layout.njk        the one shell (head, chrome mounts, <main>) — edit once
+  zf_info/                    reference-page fragments (+ their inline images)
+    zf_info.11tydata.js       applies the layout; keeps output path == source path
+  images/                     shared site images
+  ZFIN/                       legacy pages (different shell — copied verbatim, not templated)
   robots.txt
   favicon.ico
-  analytics.js  self-contained, host-switched GA4 loader
+  analytics.js                self-contained, host-switched GA4 loader
+eleventy.config.js            renders only zf_info/*.html; ignores ZFIN/
+scripts/copy-assets.mjs       copies all non-templated files into build/
+scripts/package.mjs           tars build/ + writes .sha256
 ```
 
-`src/` maps 1:1 onto `$TARGETROOT/home/` on the server (the Apache
-DocumentRoot on the `www_data` volume). Deploy = land `src/*` there.
+A page fragment looks like:
+
+```html
+---
+title: ZFIN Zebrafish Nomenclature
+---
+<div> ...the page body that goes inside <main>... </div>
+```
+
+`build/` maps 1:1 onto the deployed static volume (`/opt/zfin/static`), and each
+entry is symlinked into the Apache DocumentRoot (see Deploy). The render is
+byte-for-byte faithful — `build/` reproduces the previously-served pages exactly.
+
+## Build
+
+```sh
+npm ci
+npm run build      # build:assets (copy) + build:pages (Eleventy) -> build/
+npm run package    # -> dist/zfin-static-<version>.tar.gz (+ .sha256)
+```
+
+To change the shell across all ~388 pages (e.g. a `<head>` tag, or the deferred
+no-JS nav/skip-link), edit `src/_includes/layout.njk` once and rebuild.
 
 ## Provenance
 
-Imported from the `zfin.org` `static-file-refactor` branch at
-`af51282a9e69257595bc53716e54c8b00a5976a5` (the `static/` tree, flattened to
-`src/`). The one-shot JSP→HTML converter that produced these pages
-(`convert-zfbook-to-static.groovy`) remains in the main repo.
+Pages were converted from the former JSP views on the `zfin.org`
+`static-file-refactor` branch (`convert-zfbook-to-static.groovy`, still in the
+main repo), imported here at `af51282a9e69257595bc53716e54c8b00a5976a5`, then
+de-duplicated into fragments + a shared Eleventy layout.
 
 ## Coupling contract (do not break without coordinating the main repo)
 
@@ -64,8 +93,8 @@ git tag v1.0.0
 git push origin v1.0.0
 ```
 
-`.github/workflows/release.yml` then runs `scripts/make-tarball.sh` and attaches
-two assets to the release:
+`.github/workflows/release.yml` then runs `npm ci && npm run build && npm run
+package` and attaches two assets to the release:
 
 - `zfin-static-<version>.tar.gz` — the tarball
 - `zfin-static-<version>.tar.gz.sha256` — its checksum
@@ -81,7 +110,7 @@ tar -xzf zfin-static-v1.0.0.tar.gz -C /opt/zfin/static
 Build one locally the same way CI does:
 
 ```sh
-scripts/make-tarball.sh v1.0.0   # -> dist/zfin-static-v1.0.0.tar.gz (+ .sha256)
+npm run build && npm run package v1.0.0   # -> dist/zfin-static-v1.0.0.tar.gz (+ .sha256)
 ```
 
 ## Deploy (separate volume + docroot symlinks)

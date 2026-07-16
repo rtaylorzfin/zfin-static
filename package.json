@@ -1,0 +1,16 @@
+{
+  "name": "zfin-static",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "ZFIN served static content: zf_info reference pages (Eleventy-templated), images, and ZFIN assets.",
+  "scripts": {
+    "build:assets": "node scripts/copy-assets.mjs",
+    "build:pages": "eleventy",
+    "build": "npm run build:assets && npm run build:pages",
+    "package": "node scripts/package.mjs"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}

@@ -12,5 +12,9 @@
 /tmp/
 .rsync-partial/
 
-# Build output (release tarballs are produced here, not committed)
+# Node / Eleventy
+/node_modules/
+
+# Build output (rendered site + release tarballs; produced, not committed)
+/build/
 /dist/

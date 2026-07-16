@@ -2,8 +2,8 @@ name: Release
 
 # Cut a release by pushing a version tag:
 #   git tag v1.0.0 && git push origin v1.0.0
-# This builds a tarball of the static content and attaches it (plus its
-# .sha256) to a GitHub Release named after the tag.
+# This renders the site (Eleventy), builds a tarball of the rendered content,
+# and attaches it (plus its .sha256) to a GitHub Release named after the tag.
 
 on:
   push:
@@ -18,11 +18,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
-      - name: Build versioned tarball
-        run: scripts/make-tarball.sh "${GITHUB_REF_NAME}"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+      - run: npm run build
+      - run: npm run package -- "${GITHUB_REF_NAME}"
 
       - name: Create GitHub release
         env:
