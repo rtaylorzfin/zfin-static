@@ -61,9 +61,10 @@ no-JS nav/skip-link), edit `src/_includes/layout.njk` once and rebuild.
 ## Provenance
 
 Pages were converted from the former JSP views on the `zfin.org`
-`static-file-refactor` branch (`convert-zfbook-to-static.groovy`, still in the
-main repo), imported here at `af51282a9e69257595bc53716e54c8b00a5976a5`, then
-de-duplicated into fragments + a shared Eleventy layout.
+`static-file-refactor` branch by a one-shot `convert-zfbook-to-static.groovy`
+script (since removed from that repo; recoverable from its git history),
+imported here at `af51282a9e69257595bc53716e54c8b00a5976a5`, then de-duplicated
+into fragments + a shared Eleventy layout.
 
 ## Coupling contract (do not break without coordinating the main repo)
 
