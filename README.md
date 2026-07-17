@@ -26,7 +26,7 @@ src/
   _includes/layout.njk        the one shell (head, chrome mounts, <main>) — edit once
   zf_info/                    reference-page fragments (+ their inline images)
     zf_info.11tydata.js       applies the layout; keeps output path == source path
-    toc/*.json                generated navigation spines (served at /zf_info/toc/)
+    toc/*.json                RWPM-subset navigation manifests (served at /zf_info/toc/)
   images/                     shared site images
   ZFIN/                       legacy pages (different shell — copied verbatim, not templated)
   robots.txt
@@ -35,7 +35,6 @@ src/
 eleventy.config.js            renders only zf_info/*.html; ignores ZFIN/
 scripts/copy-assets.mjs       copies all non-templated files into build/
 scripts/package.mjs           tars build/ + writes .sha256
-toctools/build-toc.py         regenerates src/zf_info/toc/*.json (scratch home; to be removed)
 ```
 
 A page fragment looks like:
@@ -65,17 +64,34 @@ and rebuild.
 
 ## Navigation TOCs
 
-`toctools/build-toc.py` extracts an ordered **`readingOrder`** (+ heading-grouped
-`toc`) from each collection's contents page — step 1 toward back / forward /
-next-section / back-to-toc links. Each `src/zf_info/toc/<collection>.json` is a
-subset of the **Readium Web Publication Manifest** (RWPM: `metadata` + `links` +
-`readingOrder` + `toc`), so the fields follow an established standard. Output
-ships in the tarball and Apache serves it at **`/zf_info/toc/*.json`** (the
-client-side nav can fetch it); `list-of-tocs.json` is a hand-maintained index of
-those files (not itself RWPM). See [`toctools/README.md`](toctools/README.md) for
-the schema, per-collection coverage (zfbook, staging, monitor, anatomy), and the
-loose collections that have no ordered index. (`toctools/` is a scratch home for
-the parser for now and will be removed later.)
+`src/zf_info/toc/` holds one ordered navigation manifest per collection plus a
+`list-of-tocs.json` index — the data behind the client-side page nav (the
+`booknav.js` prev/next bar and the `fulltoc.html` full index). Apache serves it
+at **`/zf_info/toc/*.json`** so the nav can `fetch` it.
+
+Each `<collection>.json` is a subset of the **Readium Web Publication Manifest**
+([RWPM](https://readium.org/webpub-manifest/)), so the fields follow an
+established standard:
+
+- `metadata` — `{title, identifier}` (plus `description` on the hand-authored files)
+- `links` — the source contents page, `[{rel: "contents", href}]` (omitted where
+  there is none)
+- `readingOrder` — the ordered, de-duplicated page sequence `[{href, title}]`
+  (drives prev/next)
+- `toc` — the same pages grouped by heading, `[{title, children: [{href, title}]}]`
+- `coverage` — non-standard extension: `readingOrderPages` vs `collectionHtmlPages`
+
+`list-of-tocs.json` is a hand-maintained index of those files (which collections
+exist, in what order, and the path prefixes that map a page to its collection);
+it is **not** itself RWPM (RWPM has no list-of-publications concept).
+
+The four generated collections (`zfbook` 80, `staging` 63, `monitor` 93,
+`anatomy` 79) were produced by a `build-toc.py` parser that walked each
+collection's contents page — reading `<a href>` and (for anatomy) `<area href>`
+image maps, recursing into per-section sub-indexes. `loose.json` and `misc.json`
+are hand-authored, since those pages have no single ordered index. The parser
+lived in a `toctools/` scratch dir that has since been removed; **recover it from
+git history** (`toctools/build-toc.py`) if the manifests ever need regenerating.
 
 ## Provenance
 
