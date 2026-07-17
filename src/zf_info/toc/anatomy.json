@@ -75,6 +75,10 @@
       "title": ""
     },
     {
+      "href": "/zf_info/anatomy/24hrs/24hrsd1.html",
+      "title": "24 hrs dorsal, picture 1"
+    },
+    {
       "href": "/zf_info/anatomy/dev_atlas.html",
       "title": "Back to Atlas of Zebrafish Anatomy"
     },
@@ -396,6 +400,10 @@
           "title": ""
         },
         {
+          "href": "/zf_info/anatomy/24hrs/24hrsd1.html",
+          "title": "24 hrs dorsal, picture 1"
+        },
+        {
           "href": "/zf_info/anatomy/dev_atlas.html",
           "title": "Back to Atlas of Zebrafish Anatomy"
         },
@@ -651,7 +659,7 @@
     }
   ],
   "coverage": {
-    "readingOrderPages": 79,
+    "readingOrderPages": 80,
     "collectionHtmlPages": 99
   }
 }

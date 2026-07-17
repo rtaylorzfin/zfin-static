@@ -83,6 +83,14 @@
       "title": "Stages"
     },
     {
+      "href": "/zf_info/zfbook/stages/larval.html",
+      "title": "Larval Period: Description"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/larv_stgs.html",
+      "title": "Larval Stages"
+    },
+    {
       "href": "/zf_info/zfbook/stages/gloss.html",
       "title": "Glossary"
     },
@@ -261,6 +269,14 @@
     {
       "href": "/zf_info/zfbook/stages/figs/fig43.html",
       "title": "Fig. 43"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/figs/table1.html",
+      "title": "Table 1: Stages of Embryonic Development"
+    },
+    {
+      "href": "/zf_info/zfbook/stages/figs/table2.html",
+      "title": "Table 2: Stages of Embryonic Development"
     }
   ],
   "toc": [
@@ -338,6 +354,14 @@
         {
           "href": "/zf_info/zfbook/stages/hatch_stgs.html",
           "title": "Stages"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/larval.html",
+          "title": "Larval Period: Description"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/larv_stgs.html",
+          "title": "Larval Stages"
         },
         {
           "href": "/zf_info/zfbook/stages/gloss.html",
@@ -518,12 +542,20 @@
         {
           "href": "/zf_info/zfbook/stages/figs/fig43.html",
           "title": "Fig. 43"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/figs/table1.html",
+          "title": "Table 1: Stages of Embryonic Development"
+        },
+        {
+          "href": "/zf_info/zfbook/stages/figs/table2.html",
+          "title": "Table 2: Stages of Embryonic Development"
         }
       ]
     }
   ],
   "coverage": {
-    "readingOrderPages": 63,
+    "readingOrderPages": 67,
     "collectionHtmlPages": 69
   }
 }

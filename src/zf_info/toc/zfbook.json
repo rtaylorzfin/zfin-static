@@ -115,6 +115,10 @@
       "title": "A Simple Method for Raising Larvae"
     },
     {
+      "href": "/zf_info/zfbook/chapt3/3.10.html",
+      "title": "Growing Zebrafish"
+    },
+    {
       "href": "/zf_info/zfbook/stages/stages.html",
       "title": "Developmental Staging Series"
     },
@@ -329,6 +333,14 @@
     {
       "href": "/zf_info/zfbook/chapt10.html",
       "title": "ABC Solution (Avidin-Biotin HRP Complex)"
+    },
+    {
+      "href": "/zf_info/zfbook/zfbk.html",
+      "title": "The Zebrafish Book: Contents"
+    },
+    {
+      "href": "/zf_info/zfbook/lab_desig.html",
+      "title": "Line Designations"
     }
   ],
   "toc": [
@@ -448,6 +460,10 @@
         {
           "href": "/zf_info/zfbook/chapt3/3.9.html",
           "title": "A Simple Method for Raising Larvae"
+        },
+        {
+          "href": "/zf_info/zfbook/chapt3/3.10.html",
+          "title": "Growing Zebrafish"
         },
         {
           "href": "/zf_info/zfbook/stages/stages.html",
@@ -701,10 +717,23 @@
           "title": "ABC Solution (Avidin-Biotin HRP Complex)"
         }
       ]
+    },
+    {
+      "title": "Other pages",
+      "children": [
+        {
+          "href": "/zf_info/zfbook/zfbk.html",
+          "title": "The Zebrafish Book: Contents"
+        },
+        {
+          "href": "/zf_info/zfbook/lab_desig.html",
+          "title": "Line Designations"
+        }
+      ]
     }
   ],
   "coverage": {
-    "readingOrderPages": 80,
+    "readingOrderPages": 83,
     "collectionHtmlPages": 152
   }
 }

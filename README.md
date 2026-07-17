@@ -93,6 +93,25 @@ are hand-authored, since those pages have no single ordered index. The parser
 lived in a `toctools/` scratch dir that has since been removed; **recover it from
 git history** (`toctools/build-toc.py`) if the manifests ever need regenerating.
 
+### TODO — link the recovered orphans from content
+
+Eight pages had no inbound link from their collection's contents page, so the
+parser never placed them in a sequence. They are now added to the manifests by
+hand, so `fulltoc.html` and the prev/next bar reach them — but the **source
+content pages still don't link them**, so a reader browsing the actual pages
+can't get to them. The real fix is to add the inbound links in the content (after
+which the hand-added manifest entry just mirrors a real link):
+
+- [ ] `zfbook/chapt3/3.10.html` ("Growing Zebrafish") — add to the Chapter 3
+      listing (`zfbook/cont.html` links 3.1–3.9 only).
+- [ ] `zfbook/stages/larval.html` + `larv_stgs.html` (the Larval Period pair) —
+      link from the staging contents (`zfbook/stages/stages.html`), after Hatching.
+- [ ] `zfbook/stages/figs/table1.html`, `table2.html` — link from the staging
+      figures / contents.
+- [ ] `anatomy/24hrs/24hrsd1.html` — link from the 24-hr anatomy index / image map.
+- [ ] `zfbook/zfbk.html` (book front page) + `zfbook/lab_desig.html` (line
+      designations) — link from the book's front matter / `cont.html`.
+
 ## Provenance
 
 Pages were converted from the former JSP views on the `zfin.org`
